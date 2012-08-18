@@ -170,6 +170,13 @@
         return date;
     }
     
+    // dateTime（YYYY-MM-DDThh:mm:ss.SSSZ）
+    formatter.dateFormat = @"yyyy'-'MM'-'dd'T'HH':'mm':'ss'.'SSS'Z'";
+    date = [formatter dateFromString:value];
+    if (date) {
+        return date;
+    }
+    
     // dateTime（YYYY-MM-DDThh:mm:sszzzzzz）
     if (value.length >= 22) {
         formatter.dateFormat = @"yyyy'-'MM'-'dd'T'HH':'mm':'sszzzz";
