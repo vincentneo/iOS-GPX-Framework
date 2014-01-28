@@ -10,10 +10,10 @@
 
 @implementation GPXType
 
-+ (CGFloat)latitude:(NSString *)value
++ (CLLocationDegrees)latitude:(NSString *)value
 {
     @try {
-        CGFloat f = [value floatValue];
+        CLLocationDegrees f = [value doubleValue];
         if (-90.f <= f && f <= 90.f) {
             return f;
         }
@@ -24,7 +24,7 @@
     return 0.f;
 }
 
-+ (NSString *)valueForLatitude:(CGFloat)latitude
++ (NSString *)valueForLatitude:(CLLocationDegrees)latitude
 {
     if (-90.f <= latitude && latitude <= 90.f) {
         return [NSString stringWithFormat:@"%f", latitude];
@@ -33,10 +33,10 @@
     return @"0";
 }
 
-+ (CGFloat)longitude:(NSString *)value
++ (CLLocationDegrees)longitude:(NSString *)value
 {
     @try {
-        CGFloat f = [value floatValue];
+        CLLocationDegrees f = [value doubleValue];
         if (-180.f <= f && f <= 180.f) {
             return f;
         }
@@ -47,7 +47,7 @@
     return 0.f;
 }
 
-+ (NSString *)valueForLongitude:(CGFloat)longitude
++ (NSString *)valueForLongitude:(CLLocationDegrees)longitude
 {
     if (-180.f <= longitude && longitude <= 180.f) {
         return [NSString stringWithFormat:@"%f", longitude];
@@ -56,7 +56,7 @@
     return @"0";
 }
 
-+ (CGFloat)degress:(NSString *)value
++ (CLLocationDegrees)degress:(NSString *)value
 {
     @try {
         CGFloat f = [value floatValue];
@@ -70,7 +70,7 @@
     return 0.f;    
 }
 
-+ (NSString *)valueForDegress:(CGFloat)degress
++ (NSString *)valueForDegress:(CLLocationDegrees)degress
 {
     if (0.0f <= degress && degress <= 360.f) {
         return [NSString stringWithFormat:@"%f", degress];
@@ -138,10 +138,10 @@
     return @"0";
 }
 
-+ (CGFloat)decimal:(NSString *)value
++ (double)decimal:(NSString *)value
 {
     @try {
-        CGFloat f = [value floatValue];
+        double f = [value doubleValue];
         return f;
     }
     @catch (NSException *exception) {
@@ -150,7 +150,7 @@
     return 0;
 }
 
-+ (NSString *)valueForDecimal:(CGFloat)decimal
++ (NSString *)valueForDecimal:(double)decimal
 {
     return [NSString stringWithFormat:@"%f", decimal];
     

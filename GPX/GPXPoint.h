@@ -7,6 +7,7 @@
 //
 
 #import "GPXElement.h"
+@import CoreLocation;
 
 
 /** A geographic point with optional elevation and time. Available for use by other schemas.
@@ -19,16 +20,16 @@
 /// ---------------------------------
 
 /** The elevation (in meters) of the point. */
-@property (nonatomic, assign) CGFloat elevation;
+@property (nonatomic, assign) CLLocationDistance elevation;
 
 /** The time that the point was recorded. */
 @property (strong, nonatomic) NSDate *time;
 
 /** The latitude of the point. Decimal degrees, WGS84 datum */
-@property (nonatomic, assign) CGFloat latitude;
+@property (nonatomic, assign) CLLocationDegrees latitude;
 
 /** The longitude of the point. Decimal degrees, WGS84 datum. */
-@property (nonatomic, assign) CGFloat longitude;
+@property (nonatomic, assign) CLLocationDegrees longitude;
 
 
 /// ---------------------------------
@@ -40,6 +41,6 @@
  @param longitude The longitude of the point.
  @return A newly created point element.
  */
-+ (GPXPoint *)pointWithLatitude:(CGFloat)latitude longitude:(CGFloat)longitude;
++ (GPXPoint *)pointWithLatitude:(CLLocationDegrees)latitude longitude:(CLLocationDegrees)longitude;
 
 @end

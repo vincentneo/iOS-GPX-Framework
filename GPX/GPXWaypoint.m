@@ -103,12 +103,12 @@
 
 #pragma mark - Public methods
 
-- (CGFloat)elevation
+- (CLLocationDistance)elevation
 {
     return [GPXType decimal:_elevationValue];
 }
 
-- (void)setElevation:(CGFloat)elevation
+- (void)setElevation:(CLLocationDistance)elevation
 {
     _elevationValue = [GPXType valueForDecimal:elevation];
 }
@@ -133,12 +133,12 @@
     _magneticVariationValue = [GPXType valueForDegress:magneticVariation];
 }
 
-- (CGFloat)geoidHeight
+- (CLLocationDistance)geoidHeight
 {
     return [GPXType decimal:_geoidHeightValue];
 }
 
-- (void)setGeoidHeight:(CGFloat)geoidHeight
+- (void)setGeoidHeight:(CLLocationDistance)geoidHeight
 {
     _geoidHeightValue = [GPXType valueForDecimal:geoidHeight];
 }
@@ -197,42 +197,42 @@
     _satellitesValue = [GPXType valueForNonNegativeInteger:satellites];
 }
 
-- (CGFloat)horizontalDilution
+- (double)horizontalDilution
 {
     return [GPXType decimal:_horizontalDilutionValue];
 }
 
-- (void)setHorizontalDilution:(CGFloat)horizontalDilution
+- (void)setHorizontalDilution:(double)horizontalDilution
 {
     _horizontalDilutionValue = [GPXType valueForDecimal:horizontalDilution];
 }
 
-- (CGFloat)verticalDilution
+- (double)verticalDilution
 {
     return [GPXType decimal:_verticalDilutionValue];
 }
 
-- (void)setVerticalDilution:(CGFloat)verticalDilution
+- (void)setVerticalDilution:(double)verticalDilution
 {
     _verticalDilutionValue = [GPXType valueForDecimal:verticalDilution];
 }
 
-- (CGFloat)positionDilution
+- (double)positionDilution
 {
     return [GPXType decimal:_positionDilutionValue];
 }
 
-- (void)setPositionDilution:(CGFloat)positionDilution
+- (void)setPositionDilution:(double)positionDilution
 {
     _positionDilutionValue = [GPXType valueForDecimal:positionDilution];
 }
 
-- (CGFloat)ageOfDGPSData
+- (double)ageOfDGPSData
 {
     return [GPXType decimal:_ageOfDGPSDataValue];
 }
 
-- (void)setAgeOfDGPSData:(CGFloat)ageOfDGPSData
+- (void)setAgeOfDGPSData:(double)ageOfDGPSData
 {
     _ageOfDGPSDataValue = [GPXType valueForDecimal:ageOfDGPSData];
 }
@@ -247,22 +247,22 @@
     _DGPSidValue = [GPXType valueForDgpsStation:DGPSid];
 }
 
-- (CGFloat)latitude
+- (CLLocationDegrees)latitude
 {
     return [GPXType latitude:_latitudeValue];
 }
 
-- (void)setLatitude:(CGFloat)latitude
+- (void)setLatitude:(CLLocationDegrees)latitude
 {
     _latitudeValue = [GPXType valueForLatitude:latitude];
 }
 
-- (CGFloat)longitude
+- (CLLocationDegrees)longitude
 {
     return [GPXType longitude:_longitudeValue];
 }
 
-- (void)setLongitude:(CGFloat)longitude
+- (void)setLongitude:(CLLocationDegrees)longitude
 {
     _longitudeValue = [GPXType valueForLongitude:longitude];
 }
