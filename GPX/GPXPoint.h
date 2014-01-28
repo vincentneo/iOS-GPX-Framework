@@ -20,16 +20,16 @@
 /// ---------------------------------
 
 /** The elevation (in meters) of the point. */
-@property (nonatomic, assign) CLLocationDistance elevation;
+@property (nonatomic) CLLocationDistance elevation;
 
 /** The time that the point was recorded. */
 @property (strong, nonatomic) NSDate *time;
 
 /** The latitude of the point. Decimal degrees, WGS84 datum */
-@property (nonatomic, assign) CLLocationDegrees latitude;
+@property (nonatomic) CLLocationDegrees latitude;
 
 /** The longitude of the point. Decimal degrees, WGS84 datum. */
-@property (nonatomic, assign) CLLocationDegrees longitude;
+@property (nonatomic) CLLocationDegrees longitude;
 
 
 /// ---------------------------------

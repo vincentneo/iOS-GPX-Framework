@@ -7,7 +7,7 @@
 //
 
 #import "GPXElement.h"
-
+@import CoreLocation;
 
 /** Two lat/lon pairs defining the extent of an element.
  */
@@ -19,16 +19,16 @@
 /// ---------------------------------
 
 /** The minimum latitude. */
-@property (nonatomic, assign) CGFloat minLatitude;
+@property (nonatomic) CLLocationDegrees minLatitude;
 
 /** The minimum longitude. */
-@property (nonatomic, assign) CGFloat minLongitude;
+@property (nonatomic) CLLocationDegrees minLongitude;
 
 /** The maximum latitude. */
-@property (nonatomic, assign) CGFloat maxLatitude;
+@property (nonatomic) CLLocationDegrees maxLatitude;
 
 /** The maximum longitude. */
-@property (nonatomic, assign) CGFloat maxLongitude;
+@property (nonatomic) CLLocationDegrees maxLongitude;
 
 
 /// ---------------------------------
@@ -42,6 +42,6 @@
  @param maxLongitude The maximum longitude.
  @return A newly created bounds element.
  */
-+ (GPXBounds *)boundsWithMinLatitude:(CGFloat)minLatitude minLongitude:(CGFloat)minLongitude maxLatitude:(CGFloat)maxLatitude maxLongitude:(CGFloat)maxLongitude;
++ (GPXBounds *)boundsWithMinLatitude:(CLLocationDegrees)minLatitude minLongitude:(CLLocationDegrees)minLongitude maxLatitude:(CLLocationDegrees)maxLatitude maxLongitude:(CLLocationDegrees)maxLongitude;
 
 @end

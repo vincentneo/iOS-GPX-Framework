@@ -20,7 +20,7 @@
 
 /** A parent GPXElement of the receiver.
  */
-@property (unsafe_unretained, nonatomic) GPXElement *parent;
+@property (weak, nonatomic) GPXElement *parent;
 
 
 /// ---------------------------------

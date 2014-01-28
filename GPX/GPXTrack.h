@@ -39,7 +39,7 @@
 @property (strong, nonatomic, readonly) NSArray *links;
 
 /** GPS track number. */
-@property (nonatomic, assign) NSInteger number;
+@property (nonatomic) NSInteger number;
 
 /** Type (classification) of track. */
 @property (strong, nonatomic) NSString *type;

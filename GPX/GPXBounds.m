@@ -36,7 +36,7 @@
     return self;
 }
 
-+ (GPXBounds *)boundsWithMinLatitude:(CGFloat)minLatitude minLongitude:(CGFloat)minLongitude maxLatitude:(CGFloat)maxLatitude maxLongitude:(CGFloat)maxLongitude
++ (GPXBounds *)boundsWithMinLatitude:(CLLocationDegrees)minLatitude minLongitude:(CLLocationDegrees)minLongitude maxLatitude:(CLLocationDegrees)maxLatitude maxLongitude:(CLLocationDegrees)maxLongitude
 {
     GPXBounds *bounds = [GPXBounds new];
     bounds.minLatitude = minLatitude;
@@ -49,27 +49,27 @@
 
 #pragma mark - Public methods
 
-- (CGFloat)minLatitude
+- (CLLocationDegrees)minLatitude
 {
     return [GPXType latitude:_minLatitudeValue];
 }
 
-- (void)setMinLatitude:(CGFloat)minLatitude
+- (void)setMinLatitude:(CLLocationDegrees)minLatitude
 {
     _minLatitudeValue = [GPXType valueForLatitude:minLatitude];
 }
 
-- (CGFloat)minLongitude
+- (CLLocationDegrees)minLongitude
 {
     return [GPXType longitude:_minLongitudeValue];
 }
 
-- (void)setMinLongitude:(CGFloat)minLongitude
+- (void)setMinLongitude:(CLLocationDegrees)minLongitude
 {
     _minLongitudeValue = [GPXType valueForLongitude:minLongitude];
 }
 
-- (CGFloat)maxLatitude
+- (CLLocationDegrees)maxLatitude
 {
     return [GPXType latitude:_maxLatitudeValue];
 }
@@ -79,7 +79,7 @@
     _maxLatitudeValue = [GPXType valueForLatitude:maxLatitude];
 }
 
-- (CGFloat)maxLongitude
+- (CLLocationDegrees)maxLongitude
 {
     return [GPXType longitude:_maxLongitudeValue];
 }

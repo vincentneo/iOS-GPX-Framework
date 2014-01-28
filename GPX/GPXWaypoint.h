@@ -22,7 +22,7 @@
 /// ---------------------------------
 
 /** Elevation (in meters) of the point. */
-@property (nonatomic, assign) CLLocationDistance elevation;
+@property (nonatomic) CLLocationDistance elevation;
 
 /** Creation/modification timestamp for element. 
     Date and time in are in Univeral Coordinated Time (UTC), not local time! 
@@ -31,10 +31,10 @@
 @property (strong, nonatomic) NSDate *time;
 
 /** Magnetic variation (in degrees) at the point */
-@property (nonatomic, assign) CGFloat magneticVariation;
+@property (nonatomic) CGFloat magneticVariation;
 
 /** Height (in meters) of geoid (mean sea level) above WGS84 earth ellipsoid. As defined in NMEA GGA message. */
-@property (nonatomic, assign) CLLocationDistance geoidHeight;
+@property (nonatomic) CLLocationDistance geoidHeight;
 
 /** The GPS name of the waypoint. This field will be transferred to and from the GPS. 
     GPX does not place restrictions on the length of this field or the characters contained in it. 
@@ -62,34 +62,34 @@
 @property (strong, nonatomic) NSString *type;
 
 /** Type of GPX fix. */
-@property (nonatomic, assign) NSInteger fix;
+@property (nonatomic) NSInteger fix;
 
 /** Number of satellites used to calculate the GPX fix. */
-@property (nonatomic, assign) NSInteger satellites;
+@property (nonatomic) NSInteger satellites;
 
 /** Horizontal dilution of precision. */
-@property (nonatomic, assign) double horizontalDilution;
+@property (nonatomic) double horizontalDilution;
 
 /** Vertical dilution of precision. */
-@property (nonatomic, assign) double verticalDilution;
+@property (nonatomic) double verticalDilution;
 
 /** Position dilution of precision. */
-@property (nonatomic, assign) double positionDilution;
+@property (nonatomic) double positionDilution;
 
 /** Number of seconds since last DGPS update. */
-@property (nonatomic, assign) double ageOfDGPSData;
+@property (nonatomic) double ageOfDGPSData;
 
 /** ID of DGPS station used in differential correction. */
-@property (nonatomic, assign) NSInteger DGPSid;
+@property (nonatomic) NSInteger DGPSid;
 
 /** You can add extend GPX by adding your own elements from another schema here. */
 @property (strong, nonatomic) GPXExtensions *extensions;
 
 /** The latitude of the point. Decimal degrees, WGS84 datum. */
-@property (nonatomic, assign) CLLocationDegrees latitude;
+@property (nonatomic) CLLocationDegrees latitude;
 
 /** The longitude of the point. Decimal degrees, WGS84 datum. */
-@property (nonatomic, assign) CLLocationDegrees longitude;
+@property (nonatomic) CLLocationDegrees longitude;
 
 
 /// ---------------------------------
