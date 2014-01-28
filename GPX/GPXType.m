@@ -12,16 +12,8 @@
 
 + (CLLocationDegrees)latitude:(NSString *)value
 {
-    @try {
-        CLLocationDegrees f = [value doubleValue];
-        if (-90.f <= f && f <= 90.f) {
-            return f;
-        }
-    }
-    @catch (NSException *exception) {
-    }
-    
-    return 0.f;
+    CLLocationDegrees f = [value doubleValue];
+    return f;
 }
 
 + (NSString *)valueForLatitude:(CLLocationDegrees)latitude
@@ -35,16 +27,8 @@
 
 + (CLLocationDegrees)longitude:(NSString *)value
 {
-    @try {
-        CLLocationDegrees f = [value doubleValue];
-        if (-180.f <= f && f <= 180.f) {
-            return f;
-        }
-    }
-    @catch (NSException *exception) {
-    }
-    
-    return 0.f;
+    CLLocationDegrees f = [value doubleValue];
+    return f;
 }
 
 + (NSString *)valueForLongitude:(CLLocationDegrees)longitude
@@ -58,16 +42,8 @@
 
 + (CLLocationDegrees)degress:(NSString *)value
 {
-    @try {
-        CGFloat f = [value floatValue];
-        if (0.f <= f && f <= 360.f) {
-            return f;
-        }
-    }
-    @catch (NSException *exception) {
-    }
-    
-    return 0.f;    
+    CLLocationDegrees f = [value doubleValue];
+    return f;
 }
 
 + (NSString *)valueForDegress:(CLLocationDegrees)degress
@@ -117,16 +93,11 @@
 
 + (NSInteger)dgpsStation:(NSString *)value
 {
-    @try {
-        NSInteger i = [value integerValue];
-        if (0 <= i && i <= 1023) {
-            return i;
-        }
+    NSInteger i = [value integerValue];
+    if (0 <= i && i <= 1023) {
+        return i;
     }
-    @catch (NSException *exception) {
-    }
-    
-    return 0;   
+    return 0;
 }
 
 + (NSString *)valueForDgpsStation:(NSInteger)dgpsStation
@@ -140,14 +111,8 @@
 
 + (double)decimal:(NSString *)value
 {
-    @try {
-        double f = [value doubleValue];
-        return f;
-    }
-    @catch (NSException *exception) {
-    }
-    
-    return 0;
+    double f = [value doubleValue];
+    return f;
 }
 
 + (NSString *)valueForDecimal:(double)decimal
@@ -224,13 +189,9 @@
 
 + (NSInteger)nonNegativeInteger:(NSString *)value
 {
-    @try {
-        NSInteger i = [value integerValue];
-        if (i >= 0) {
-            return i;
-        }
-    }
-    @catch (NSException *exception) {
+    NSInteger i = [value integerValue];
+    if (i > 0) {
+        return i;
     }
     
     return 0;
@@ -238,10 +199,9 @@
 
 + (NSString *)valueForNonNegativeInteger:(NSInteger)integer
 {
-    if (integer >= 0) {
+    if (integer > 0) {
         return [NSString stringWithFormat:@"%ld", (long)integer];
     }
-    
     return @"0";
 }
 
