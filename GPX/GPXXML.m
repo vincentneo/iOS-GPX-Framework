@@ -232,32 +232,32 @@
 		}
 
 		// detect cdata section within element text
-		int isCDATA = strncmp(elementStart,"<![CDATA[",9);
+		BOOL isCDATA = (strncmp(elementStart,"<![CDATA[",9) == 0);
 		
 		// if cdata section found, skip data within cdata section and remove cdata tags
-		if (isCDATA==0) {
+		if (isCDATA) {
 			
 			// find end of cdata section
 			char * CDATAEnd = strstr(elementStart,"]]>");
 			
 			// find start of next element skipping any cdata sections within text
-			char * elementEnd = CDATAEnd;
+			char * elementEndData = CDATAEnd;
 			
 			// find next open tag
-			elementEnd = strstr(elementEnd,"<");
+			elementEndData = strstr(elementEndData,"<");
 			// if open tag is a cdata section
-			while (strncmp(elementEnd,"<![CDATA[",9) == 0) {
+			while (strncmp(elementEndData,"<![CDATA[",9) == 0) {
 				// find end of cdata section
-				elementEnd = strstr(elementEnd,"]]>");
+				elementEndData = strstr(elementEndData,"]]>");
 				// find next open tag
-				elementEnd = strstr(elementEnd,"<");
+				elementEndData = strstr(elementEndData,"<");
 			}
 			
 			// calculate length of cdata content
 			long CDATALength = CDATAEnd-elementStart;
 			
 			// calculate total length of text
-			long textLength = elementEnd-elementStart;
+			long textLength = elementEndData-elementStart;
 			
 			// remove begining cdata section tag
 			memcpy(elementStart, elementStart+9, CDATAEnd-elementStart-9);
