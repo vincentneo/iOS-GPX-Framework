@@ -77,6 +77,10 @@
     XCTAssertEqualObjects(waypoint.name, @"205A");
     XCTAssertEqualObjects(waypoint.desc, @"Concrete platform looking out onto the Mystic.\nWhile you take in the view, try not to think about the fact that you're standing on top of MWRA Wet Water Discharge Outflow #205A");
     
+    // check timestamp
+    NSDate *t2002_03_12T18_36_28Z = [NSDate dateWithTimeIntervalSince1970:1015958188];
+    XCTAssertTrue([waypoint.time isEqualToDate:t2002_03_12T18_36_28Z]);
+    
     waypoint = [root.waypoints objectAtIndex:2];
     XCTAssertEqual(waypoint.latitude, 42.398467);
     XCTAssertEqual(waypoint.longitude, -71.090467);
@@ -110,7 +114,7 @@
     XCTAssertEqual(routepoint.longitude, -71.098364);
     XCTAssertEqualObjects(routepoint.name, @"LOOP");
     XCTAssertEqualObjects(routepoint.desc, @"Starting point for the Mystic River loop trails.");
-    
+
     routepoint = [route.routepoints objectAtIndex:9];
     XCTAssertEqual(routepoint.latitude, 42.400554);
     XCTAssertEqual(routepoint.longitude, -71.079901);
@@ -164,6 +168,11 @@
     trackpoint = [tracksegment.trackpoints objectAtIndex:0];
     XCTAssertEqual(trackpoint.latitude, 42.405488);
     XCTAssertEqual(trackpoint.longitude, -71.098173);
+
+    // check timestamp
+    NSDate *t2002_03_11T20_28_26Z = [NSDate dateWithTimeIntervalSince1970:1015878506];
+    XCTAssertTrue([trackpoint.time isEqualToDate:t2002_03_11T20_28_26Z]);
+    
     trackpoint = [tracksegment.trackpoints objectAtIndex:82];
     XCTAssertEqual(trackpoint.latitude, 42.399266);
     XCTAssertEqual(trackpoint.longitude, -71.083581);
