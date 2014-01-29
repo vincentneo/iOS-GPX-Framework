@@ -121,36 +121,71 @@
     
 }
 
++ (NSDateFormatter *)newDateFormatterWithFormat:(NSString *)format {
+    if (!format) {
+        return nil;
+    }
+    
+    NSDateFormatter *dateFormatter =  [[NSDateFormatter alloc] init];
+    NSLocale *en_US_POSIX = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"];
+    
+    [dateFormatter setCalendar:[[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar]];
+    [dateFormatter setLocale:en_US_POSIX];
+    [dateFormatter setTimeZone:[NSTimeZone timeZoneForSecondsFromGMT:0]];
+    [dateFormatter setDateFormat:format];
+    return dateFormatter;
+}
 + (NSDate *)dateTime:(NSString *)value
 {
     NSDate *date;
     
-    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    formatter.timeZone = [NSTimeZone timeZoneForSecondsFromGMT:0];
+    static NSDateFormatter *dateFormatter_ssZ = nil;
+    static dispatch_once_t pred;
     
+    dispatch_once(&pred, ^{
+        dateFormatter_ssZ =  [self newDateFormatterWithFormat:@"yyyy'-'MM'-'dd'T'HH':'mm':'ss'Z'"];
+    });
+    
+   
     // dateTime（YYYY-MM-DDThh:mm:ssZ）
-    formatter.dateFormat = @"yyyy'-'MM'-'dd'T'HH':'mm':'ss'Z'";
-    date = [formatter dateFromString:value];
+    date = [dateFormatter_ssZ dateFromString:value];
     if (date) {
         return date;
     }
+    
+    static NSDateFormatter *dateFormatter_ss_SSSZ = nil;
+    static dispatch_once_t pred_ss_SSSZ;
+    
+    dispatch_once(&pred_ss_SSSZ, ^{
+        dateFormatter_ss_SSSZ =  [self newDateFormatterWithFormat:@"yyyy'-'MM'-'dd'T'HH':'mm':'ss'.'SSS'Z'"];
+    });
     
     // dateTime（YYYY-MM-DDThh:mm:ss.SSSZ）
-    formatter.dateFormat = @"yyyy'-'MM'-'dd'T'HH':'mm':'ss'.'SSS'Z'";
-    date = [formatter dateFromString:value];
+    date = [dateFormatter_ss_SSSZ dateFromString:value];
     if (date) {
         return date;
     }
     
+
     // dateTime（YYYY-MM-DDThh:mm:sszzzzzz）
     if (value.length >= 22) {
-        formatter.dateFormat = @"yyyy'-'MM'-'dd'T'HH':'mm':'sszzzz";
+        static NSDateFormatter *dateFormatter_sszzzz = nil;
+        static dispatch_once_t pred_sszzzz;
+        
+        dispatch_once(&pred_sszzzz, ^{
+            dateFormatter_sszzzz =  [self newDateFormatterWithFormat:@"yyyy'-'MM'-'dd'T'HH':'mm':'sszzzz"];
+        });
+        
+        
         NSString *v = [value stringByReplacingOccurrencesOfString:@":" withString:@"" options:0 range:NSMakeRange(22, 1)];
-        date = [formatter dateFromString:v];
+        date = [dateFormatter_sszzzz dateFromString:v];
         if (date) {
             return date;
         }
     }
+    
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    formatter.timeZone = [NSTimeZone timeZoneForSecondsFromGMT:0];
     
     // date
     formatter.dateFormat = @"yyyy'-'MM'-'dd'";
