@@ -86,6 +86,13 @@
 		DC6D13911898456100C61325 /* GPXPointSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46F00152ED11700C9A168 /* GPXPointSegment.m */; };
 		DC6D13921898456100C61325 /* GPXBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46EE9152ED11700C9A168 /* GPXBounds.m */; };
 		DC6D1394189845AD00C61325 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6D1393189845AD00C61325 /* CoreLocation.framework */; };
+		DC6D13BE1899028100C61325 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6D13681898453800C61325 /* XCTest.framework */; };
+		DC6D13BF1899028100C61325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D46EB3152ECF2400C9A168 /* Foundation.framework */; };
+		DC6D13C01899028100C61325 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D46F42152ED24900C9A168 /* UIKit.framework */; };
+		DC6D13C61899028100C61325 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC6D13C41899028100C61325 /* InfoPlist.strings */; };
+		DC6D13C81899028100C61325 /* GPXLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6D13C71899028100C61325 /* GPXLibTests.m */; };
+		DC6D13CF189903D700C61325 /* libGPXLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6D135A1898453800C61325 /* libGPXLib.a */; };
+		DC6D13D01899043100C61325 /* mystic_basin_trail.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 131D1C371532A2AF007479F1 /* mystic_basin_trail.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +109,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 13D46EAF152ECF2400C9A168;
 			remoteInfo = GPX;
+		};
+		DC6D13CA1899028100C61325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13D46EA3152ECF2400C9A168 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC6D13591898453800C61325;
+			remoteInfo = GPXLib;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -181,6 +195,11 @@
 		DC6D135E1898453800C61325 /* GPXLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPXLib-Prefix.pch"; sourceTree = "<group>"; };
 		DC6D13681898453800C61325 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DC6D1393189845AD00C61325 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DC6D13BD1899028000C61325 /* GPXLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPXLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6D13C31899028100C61325 /* GPXLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPXLibTests-Info.plist"; sourceTree = "<group>"; };
+		DC6D13C51899028100C61325 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC6D13C71899028100C61325 /* GPXLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPXLibTests.m; sourceTree = "<group>"; };
+		DC6D13C91899028100C61325 /* GPXLibTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPXLibTests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +231,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DC6D13BA1899028000C61325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6D13CF189903D700C61325 /* libGPXLib.a in Frameworks */,
+				DC6D13BE1899028100C61325 /* XCTest.framework in Frameworks */,
+				DC6D13C01899028100C61325 /* UIKit.framework in Frameworks */,
+				DC6D13BF1899028100C61325 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -221,6 +251,7 @@
 				13D46EB5152ECF2400C9A168 /* GPX */,
 				13D46ECD152ECF2400C9A168 /* GPXTests */,
 				DC6D135C1898453800C61325 /* GPXLib */,
+				DC6D13C11899028100C61325 /* GPXLibTests */,
 				13D46EB2152ECF2400C9A168 /* Frameworks */,
 				13D46EB1152ECF2400C9A168 /* Products */,
 			);
@@ -232,6 +263,7 @@
 				13D46EB0152ECF2400C9A168 /* GPX.framework */,
 				13D46EC1152ECF2400C9A168 /* GPXTests.octest */,
 				DC6D135A1898453800C61325 /* libGPXLib.a */,
+				DC6D13BD1899028000C61325 /* GPXLibTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -356,6 +388,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DC6D13C11899028100C61325 /* GPXLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC6D13C71899028100C61325 /* GPXLibTests.m */,
+				DC6D13C21899028100C61325 /* Supporting Files */,
+			);
+			path = GPXLibTests;
+			sourceTree = "<group>";
+		};
+		DC6D13C21899028100C61325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC6D13C31899028100C61325 /* GPXLibTests-Info.plist */,
+				DC6D13C41899028100C61325 /* InfoPlist.strings */,
+				DC6D13C91899028100C61325 /* GPXLibTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -451,6 +502,24 @@
 			productReference = DC6D135A1898453800C61325 /* libGPXLib.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		DC6D13BC1899028000C61325 /* GPXLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC6D13CE1899028100C61325 /* Build configuration list for PBXNativeTarget "GPXLibTests" */;
+			buildPhases = (
+				DC6D13B91899028000C61325 /* Sources */,
+				DC6D13BA1899028000C61325 /* Frameworks */,
+				DC6D13BB1899028000C61325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC6D13CB1899028100C61325 /* PBXTargetDependency */,
+			);
+			name = GPXLibTests;
+			productName = GPXLibTests;
+			productReference = DC6D13BD1899028000C61325 /* GPXLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -458,6 +527,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
+				TargetAttributes = {
+					DC6D13BC1899028000C61325 = {
+						TestTargetID = DC6D13591898453800C61325;
+					};
+				};
 			};
 			buildConfigurationList = 13D46EA6152ECF2400C9A168 /* Build configuration list for PBXProject "GPX" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -474,6 +548,7 @@
 				13D46EAF152ECF2400C9A168 /* GPX */,
 				13D46EC0152ECF2400C9A168 /* GPXTests */,
 				DC6D13591898453800C61325 /* GPXLib */,
+				DC6D13BC1899028000C61325 /* GPXLibTests */,
 			);
 		};
 /* End PBXProject section */
@@ -493,6 +568,15 @@
 			files = (
 				13D46ED2152ECF2400C9A168 /* InfoPlist.strings in Resources */,
 				131D1C381532A2AF007479F1 /* mystic_basin_trail.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6D13BB1899028000C61325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6D13C61899028100C61325 /* InfoPlist.strings in Resources */,
+				DC6D13D01899043100C61325 /* mystic_basin_trail.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,6 +704,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DC6D13B91899028000C61325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6D13C81899028100C61325 /* GPXLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -632,6 +724,11 @@
 			isa = PBXTargetDependency;
 			target = 13D46EAF152ECF2400C9A168 /* GPX */;
 			targetProxy = 13D46EC9152ECF2400C9A168 /* PBXContainerItemProxy */;
+		};
+		DC6D13CB1899028100C61325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC6D13591898453800C61325 /* GPXLib */;
+			targetProxy = DC6D13CA1899028100C61325 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -648,6 +745,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				13D46ED1152ECF2400C9A168 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC6D13C41899028100C61325 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC6D13C51899028100C61325 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -821,6 +926,76 @@
 			};
 			name = Release;
 		};
+		DC6D13CC1899028100C61325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPXLibTests/GPXLibTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "GPXLibTests/GPXLibTests-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DC6D13CD1899028100C61325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPXLibTests/GPXLibTests-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "GPXLibTests/GPXLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -859,6 +1034,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		DC6D13CE1899028100C61325 /* Build configuration list for PBXNativeTarget "GPXLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6D13CC1899028100C61325 /* Debug */,
+				DC6D13CD1899028100C61325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
