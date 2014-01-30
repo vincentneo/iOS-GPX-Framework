@@ -295,7 +295,7 @@
 		char * elementNameStart = elementStart+1;
 		
 		// ignore tags that start with ? or ! unless cdata "<![CDATA"
-		if (*elementNameStart == '?' || (*elementNameStart == '!' && isCDATA != 0)) {
+		if (*elementNameStart == '?' || (*elementNameStart == '!' && !isCDATA)) {
 			elementStart = elementEnd+1;
 			continue;
 		}
