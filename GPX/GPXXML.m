@@ -284,6 +284,7 @@
 			}
 		}
 		
+        if (!elementEnd) break;
 		
 		// null terminate element end
 		if (elementEnd) *elementEnd = 0;

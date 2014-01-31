@@ -215,4 +215,15 @@
     XCTAssertEqual(trackpoint.latitude, 42.405424);
     XCTAssertEqual(trackpoint.longitude, -71.098173);}
 
+- (void)testForBrokenXML
+{
+    GPXRoot *root = [GPXParser parseGPXWithString:@"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"];
+    XCTAssertNil(root, @"Broken XML should not produce valid GPX");
+
+    root = [GPXParser parseGPXWithString:@"<?xml version=\"1.0\" standalone=\"yes\"?> <gpx version=\"1.1\" creator=\"ExpertGPS 1.1b1 - http://www.topografix.com\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://www.topografix.com/GPX/1/1\" xmlns:topografix=\"http://www.topografix.com/GPX/Private/TopoGrafix/0/1\" xsi:schemaLocation=\"http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd\"> <trk> <name><![CDATA[SHORT TRACK]]></name> <desc><![CDATA[Bike path along the Mystic River in Medford. The trail runs along Interstate 93 to Shore Road. It then crosses the Mystic on the Route 38 bridge near the Assembly Square mall. After the bridge, the trail cuts through the high meadow grass behind the State Police barracks, and enters Torbert McDonald Park. Leaving the park, the trail passes the Meadow Glen mall before crossing back over the Mystic on the Rt 16 bridge.]]></desc> <link href=\"http://www.tufts.edu/mystic/amra/pamphlet.html\"> <text><![CDATA[Lower Mystic Basin Trail]]></text> </link> <number>4</number> <trkseg> <trkpt lat=\"42.405381\" lon=\"-71.098108\"> <ele>42.916016</ele> <time>2002-03-07T20:42:28Z</time> <sym>Waypoint</sym> </trkpt> <trkpt lat=\"42.405102\" lon=\"-71.097851\"> <ele>37.148071</ele> <time>2002-03-07T20:42:38Z</time> <sym>Waypoint</sym> </trkpt> <trkpt lat=\"42.404695\" lon=\"-71.097507\"> <ele>35.225464</ele> <time>2002-03-07T20:42:48Z</time> <sym>Waypoint</sym> </trkpt> <trk"];
+    XCTAssertNotNil(root, @"Broken XML should not crash but parse up to the defect");
+    XCTAssertEqual([root.tracks count], 1u);
+    XCTAssertEqual([[[root.tracks[0] tracksegments][0] trackpoints] count], 3u);
+}
+
 @end
