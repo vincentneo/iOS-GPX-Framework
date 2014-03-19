@@ -526,7 +526,8 @@
 		13D46EA3152ECF2400C9A168 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastTestingUpgradeCheck = 0510;
+				LastUpgradeCheck = 0510;
 				TargetAttributes = {
 					DC6D13BC1899028000C61325 = {
 						TestTargetID = DC6D13591898453800C61325;
