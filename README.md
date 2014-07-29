@@ -4,6 +4,10 @@ iOS GPX Framework
 This is a iOS framework for parsing/generating GPX files.
 This Framework parses the GPX from a URL or Strings and create Objective-C Instances of GPX structure. 
 
+Fork infos
+---------------------------------
+This pod is the "iOS-GPX-Framework" pod's source repo. It has been created to migrate from a static framework based dependency mamagement to Cocoapods.
+
 
 Installation with CocoaPods
 ---------------------------------
