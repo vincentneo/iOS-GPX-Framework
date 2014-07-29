@@ -5,22 +5,22 @@ This is a iOS framework for parsing/generating GPX files.
 This Framework parses the GPX from a URL or Strings and create Objective-C Instances of GPX structure. 
 
 
-How to build?
+Installation with CocoaPods
 ---------------------------------
 
-1. Install the [iOS Universal Framework](https://github.com/kstenerud/iOS-Universal-Framework).
+#### Podfile
 
-2. Open up the GPX project (GPX.xcodeproj) in Xcode 4.
+```ruby
+platform :ios, '5.1'
+pod 'iOS-GPX-Framework', "~> 0.0"
+```
 
-3. Click Product > Build in the menu bar.
-
-
-How to use framework in my project?
+How to use the framework
 ---------------------------------
 
-Drag the framework file into the project's Frameworks group, and import the header file.
+Import the umbrella header
 
-	#import <GPX/GPX.h>
+	#import "KML.h"
 
 
 To parsing the GPX file, simply call the parse method :

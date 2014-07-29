@@ -59,9 +59,10 @@
 		13D46F3C152ED11700C9A168 /* GPXType.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46F0E152ED11700C9A168 /* GPXType.m */; };
 		13D46F3D152ED11700C9A168 /* GPXWaypoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46F0F152ED11700C9A168 /* GPXWaypoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13D46F3E152ED11700C9A168 /* GPXWaypoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46F10152ED11700C9A168 /* GPXWaypoint.m */; };
-		13D46F3F152ED11700C9A168 /* GPXXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46F11152ED11700C9A168 /* GPXXML.h */; settings = {ATTRIBUTES = (); }; };
-		13D46F40152ED11700C9A168 /* GPXXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46F12152ED11700C9A168 /* GPXXML.m */; };
 		13D46F43152ED24900C9A168 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D46F42152ED24900C9A168 /* UIKit.framework */; };
+		1BB860B742B5449492D7427C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 907C23F77BBF4FE3A0B4A441 /* libPods.a */; };
+		D9710F5B1987AA0200732410 /* GPXXML.h in Headers */ = {isa = PBXBuildFile; fileRef = D9710F591987AA0200732410 /* GPXXML.h */; };
+		D9710F5C1987AA0200732410 /* GPXXML.m in Sources */ = {isa = PBXBuildFile; fileRef = D9710F5A1987AA0200732410 /* GPXXML.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,9 +139,11 @@
 		13D46F0E152ED11700C9A168 /* GPXType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXType.m; sourceTree = "<group>"; };
 		13D46F0F152ED11700C9A168 /* GPXWaypoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXWaypoint.h; sourceTree = "<group>"; };
 		13D46F10152ED11700C9A168 /* GPXWaypoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXWaypoint.m; sourceTree = "<group>"; };
-		13D46F11152ED11700C9A168 /* GPXXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXXML.h; sourceTree = "<group>"; };
-		13D46F12152ED11700C9A168 /* GPXXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXXML.m; sourceTree = "<group>"; };
 		13D46F42152ED24900C9A168 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		907C23F77BBF4FE3A0B4A441 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9710F591987AA0200732410 /* GPXXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPXXML.h; path = GPX/GPXXML.h; sourceTree = "<group>"; };
+		D9710F5A1987AA0200732410 /* GPXXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPXXML.m; path = GPX/GPXXML.m; sourceTree = "<group>"; };
+		F6E0E9FE4FD54A6C971E12A3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,7 @@
 			files = (
 				13D46F43152ED24900C9A168 /* UIKit.framework in Frameworks */,
 				13D46EB4152ECF2400C9A168 /* Foundation.framework in Frameworks */,
+				1BB860B742B5449492D7427C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,10 +173,13 @@
 		13D46EA1152ECF2400C9A168 = {
 			isa = PBXGroup;
 			children = (
+				D9710F591987AA0200732410 /* GPXXML.h */,
+				D9710F5A1987AA0200732410 /* GPXXML.m */,
 				13D46EB5152ECF2400C9A168 /* GPX */,
 				13D46ECD152ECF2400C9A168 /* GPXTests */,
 				13D46EB2152ECF2400C9A168 /* Frameworks */,
 				13D46EB1152ECF2400C9A168 /* Products */,
+				F6E0E9FE4FD54A6C971E12A3 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,6 +198,7 @@
 				13D46F42152ED24900C9A168 /* UIKit.framework */,
 				13D46EB3152ECF2400C9A168 /* Foundation.framework */,
 				13D46EC2152ECF2400C9A168 /* SenTestingKit.framework */,
+				907C23F77BBF4FE3A0B4A441 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -201,8 +209,6 @@
 				13D46EE5152ED11700C9A168 /* GPX.h */,
 				13D46EF9152ED11700C9A168 /* GPXParser.h */,
 				13D46EFA152ED11700C9A168 /* GPXParser.m */,
-				13D46F11152ED11700C9A168 /* GPXXML.h */,
-				13D46F12152ED11700C9A168 /* GPXXML.m */,
 				13D46EEA152ED11700C9A168 /* GPXConst.h */,
 				13D46EEB152ED11700C9A168 /* GPXConst.m */,
 				13D46F0D152ED11700C9A168 /* GPXType.h */,
@@ -308,6 +314,7 @@
 				13D46F29152ED11700C9A168 /* GPXPerson.h in Headers */,
 				13D46F2B152ED11700C9A168 /* GPXPoint.h in Headers */,
 				13D46F2D152ED11700C9A168 /* GPXPointSegment.h in Headers */,
+				D9710F5B1987AA0200732410 /* GPXXML.h in Headers */,
 				13D46F2F152ED11700C9A168 /* GPXRoot.h in Headers */,
 				13D46F31152ED11700C9A168 /* GPXRoute.h in Headers */,
 				13D46F33152ED11700C9A168 /* GPXRoutePoint.h in Headers */,
@@ -317,7 +324,6 @@
 				13D46F3B152ED11700C9A168 /* GPXType.h in Headers */,
 				13D46F3D152ED11700C9A168 /* GPXWaypoint.h in Headers */,
 				13D46F1E152ED11700C9A168 /* GPXElementSubclass.h in Headers */,
-				13D46F3F152ED11700C9A168 /* GPXXML.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +334,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13D46ED8152ECF2400C9A168 /* Build configuration list for PBXNativeTarget "GPX" */;
 			buildPhases = (
+				6C4C0CA46E984451A849605F /* Check Pods Manifest.lock */,
 				13D46EA8152ECF2400C9A168 /* ShellScript */,
 				13D46EA9152ECF2400C9A168 /* Sources */,
 				13D46EAA152ECF2400C9A168 /* Frameworks */,
@@ -335,6 +342,7 @@
 				13D46EAC152ECF2400C9A168 /* Resources */,
 				13D46EAD152ECF2400C9A168 /* ShellScript */,
 				13D46EAE152ECF2400C9A168 /* ShellScript */,
+				839AB96D175B4BE58CD27749 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -465,6 +473,36 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		6C4C0CA46E984451A849605F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		839AB96D175B4BE58CD27749 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -487,13 +525,13 @@
 				13D46F2E152ED11700C9A168 /* GPXPointSegment.m in Sources */,
 				13D46F30152ED11700C9A168 /* GPXRoot.m in Sources */,
 				13D46F32152ED11700C9A168 /* GPXRoute.m in Sources */,
+				D9710F5C1987AA0200732410 /* GPXXML.m in Sources */,
 				13D46F34152ED11700C9A168 /* GPXRoutePoint.m in Sources */,
 				13D46F36152ED11700C9A168 /* GPXTrack.m in Sources */,
 				13D46F38152ED11700C9A168 /* GPXTrackPoint.m in Sources */,
 				13D46F3A152ED11700C9A168 /* GPXTrackSegment.m in Sources */,
 				13D46F3C152ED11700C9A168 /* GPXType.m in Sources */,
 				13D46F3E152ED11700C9A168 /* GPXWaypoint.m in Sources */,
-				13D46F40152ED11700C9A168 /* GPXXML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,7 +605,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -593,7 +631,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -601,6 +639,7 @@
 		};
 		13D46ED9152ECF2400C9A168 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6E0E9FE4FD54A6C971E12A3 /* Pods.xcconfig */;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -609,6 +648,7 @@
 				GCC_PREFIX_HEADER = "GPX/GPX-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "GPX/GPX-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
@@ -617,6 +657,7 @@
 		};
 		13D46EDA152ECF2400C9A168 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6E0E9FE4FD54A6C971E12A3 /* Pods.xcconfig */;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -625,6 +666,7 @@
 				GCC_PREFIX_HEADER = "GPX/GPX-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "GPX/GPX-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
