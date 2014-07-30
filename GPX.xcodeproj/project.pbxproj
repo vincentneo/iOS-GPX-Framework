@@ -1,1534 +1,508 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>131D1C371532A2AF007479F1</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xml</string>
-			<key>path</key>
-			<string>mystic_basin_trail.gpx</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>131D1C381532A2AF007479F1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>131D1C371532A2AF007479F1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13D46EA1152ECF2400C9A168</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13D46EB5152ECF2400C9A168</string>
-				<string>13D46ECD152ECF2400C9A168</string>
-				<string>13D46EB2152ECF2400C9A168</string>
-				<string>13D46EB1152ECF2400C9A168</string>
-				<string>F6E0E9FE4FD54A6C971E12A3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EA3152ECF2400C9A168</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastTestingUpgradeCheck</key>
-				<string>0510</string>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>13D46EA6152ECF2400C9A168</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>13D46EA1152ECF2400C9A168</string>
-			<key>productRefGroup</key>
-			<string>13D46EB1152ECF2400C9A168</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>13D46EC0152ECF2400C9A168</string>
-			</array>
-		</dict>
-		<key>13D46EA6152ECF2400C9A168</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>13D46ED6152ECF2400C9A168</string>
-				<string>13D46ED7152ECF2400C9A168</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>13D46EB1152ECF2400C9A168</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13D46EC1152ECF2400C9A168</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EB2152ECF2400C9A168</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13D46F42152ED24900C9A168</string>
-				<string>13D46EB3152ECF2400C9A168</string>
-				<string>13D46EC2152ECF2400C9A168</string>
-				<string>907C23F77BBF4FE3A0B4A441</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EB3152ECF2400C9A168</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>13D46EB5152ECF2400C9A168</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13D46EE5152ED11700C9A168</string>
-				<string>13D46EF9152ED11700C9A168</string>
-				<string>13D46EFA152ED11700C9A168</string>
-				<string>13D46EEA152ED11700C9A168</string>
-				<string>13D46EEB152ED11700C9A168</string>
-				<string>13D46F0D152ED11700C9A168</string>
-				<string>13D46F0E152ED11700C9A168</string>
-				<string>13D46F41152ED13F00C9A168</string>
-				<string>13D46EB6152ECF2400C9A168</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>GPX</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EB6152ECF2400C9A168</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13D46EB7152ECF2400C9A168</string>
-				<string>13D46EB8152ECF2400C9A168</string>
-				<string>13D46EBB152ECF2400C9A168</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EB7152ECF2400C9A168</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>GPX-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EB8152ECF2400C9A168</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13D46EB9152ECF2400C9A168</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EB9152ECF2400C9A168</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EBB152ECF2400C9A168</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPX-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EBC152ECF2400C9A168</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D90F4D101987ED7900355692</string>
-				<string>D90F4D1E1987ED7900355692</string>
-				<string>D90F4D241987ED7900355692</string>
-				<string>D90F4D191987ED7900355692</string>
-				<string>D90F4D1F1987ED7900355692</string>
-				<string>D90F4D171987ED7900355692</string>
-				<string>D90F4D121987ED7900355692</string>
-				<string>D90F4D221987ED7900355692</string>
-				<string>D90F4D161987ED7900355692</string>
-				<string>D90F4D211987ED7900355692</string>
-				<string>D90F4D1A1987ED7900355692</string>
-				<string>D90F4D181987ED7900355692</string>
-				<string>D90F4D1D1987ED7900355692</string>
-				<string>D90F4D201987ED7900355692</string>
-				<string>13D46ED5152ECF2400C9A168</string>
-				<string>D90F4D111987ED7900355692</string>
-				<string>D90F4D151987ED7900355692</string>
-				<string>D90F4D231987ED7900355692</string>
-				<string>D90F4D131987ED7900355692</string>
-				<string>D90F4D1C1987ED7900355692</string>
-				<string>D90F4D1B1987ED7900355692</string>
-				<string>D90F4D141987ED7900355692</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>13D46EBD152ECF2400C9A168</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>13D46EC3152ECF2400C9A168</string>
-				<string>13D46EC6152ECF2400C9A168</string>
-				<string>4FC95880C07D428C900D93DB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>13D46EBE152ECF2400C9A168</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>13D46ED2152ECF2400C9A168</string>
-				<string>131D1C381532A2AF007479F1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>13D46EBF152ECF2400C9A168</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string># Run the unit tests in this test bundle.
-"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests"
-</string>
-		</dict>
-		<key>13D46EC0152ECF2400C9A168</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>13D46EDB152ECF2400C9A168</string>
-			<key>buildPhases</key>
-			<array>
-				<string>F57F210DF867415AB13438DA</string>
-				<string>13D46EBC152ECF2400C9A168</string>
-				<string>13D46EBD152ECF2400C9A168</string>
-				<string>13D46EBE152ECF2400C9A168</string>
-				<string>13D46EBF152ECF2400C9A168</string>
-				<string>AE6C23E9244045A08891E74E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>GPXTests</string>
-			<key>productName</key>
-			<string>GPXTests</string>
-			<key>productReference</key>
-			<string>13D46EC1152ECF2400C9A168</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>13D46EC1152ECF2400C9A168</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>GPXTests.octest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>13D46EC2152ECF2400C9A168</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>SenTestingKit.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/SenTestingKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>13D46EC3152ECF2400C9A168</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46EC2152ECF2400C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13D46EC6152ECF2400C9A168</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46EB3152ECF2400C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13D46ECD152ECF2400C9A168</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13D46ED3152ECF2400C9A168</string>
-				<string>13D46ED4152ECF2400C9A168</string>
-				<string>131D1C371532A2AF007479F1</string>
-				<string>13D46ECE152ECF2400C9A168</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>GPXTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46ECE152ECF2400C9A168</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13D46ECF152ECF2400C9A168</string>
-				<string>13D46ED0152ECF2400C9A168</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46ECF152ECF2400C9A168</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>GPXTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46ED0152ECF2400C9A168</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13D46ED1152ECF2400C9A168</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46ED1152ECF2400C9A168</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46ED2152ECF2400C9A168</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46ED0152ECF2400C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13D46ED3152ECF2400C9A168</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPXTests.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46ED4152ECF2400C9A168</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GPXTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46ED5152ECF2400C9A168</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46ED4152ECF2400C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13D46ED6152ECF2400C9A168</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>13D46ED7152ECF2400C9A168</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>13D46EDB152ECF2400C9A168</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>13D46EDC152ECF2400C9A168</string>
-				<string>13D46EDD152ECF2400C9A168</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>13D46EDC152ECF2400C9A168</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F6E0E9FE4FD54A6C971E12A3</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(DEVELOPER_LIBRARY_DIR)/Frameworks</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>GPX/GPX-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>GPXTests/GPXTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>octest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>13D46EDD152ECF2400C9A168</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F6E0E9FE4FD54A6C971E12A3</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(DEVELOPER_LIBRARY_DIR)/Frameworks</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>GPX/GPX-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>GPXTests/GPXTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>octest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>13D46EE5152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPX.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EE6152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPXAuthor.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EE7152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GPXAuthor.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EE8152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPXBounds.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EE9152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GPXBounds.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EEA152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPXConst.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EEB152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GPXConst.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EEC152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPXCopyright.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EED152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GPXCopyright.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EEE152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPXElement.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EEF152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GPXElement.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EF0152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPXElementSubclass.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EF1152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPXEmail.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EF2152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GPXEmail.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EF3152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPXExtensions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EF4152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GPXExtensions.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EF5152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPXLink.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EF6152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GPXLink.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EF7152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPXMetadata.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EF8152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GPXMetadata.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EF9152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPXParser.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EFA152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GPXParser.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EFB152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPXPerson.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EFC152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GPXPerson.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EFD152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPXPoint.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EFE152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GPXPoint.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46EFF152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPXPointSegment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46F00152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GPXPointSegment.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46F01152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPXRoot.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46F02152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GPXRoot.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46F03152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPXRoute.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46F04152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GPXRoute.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46F05152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPXRoutePoint.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46F06152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GPXRoutePoint.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46F07152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPXTrack.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46F08152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GPXTrack.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46F09152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPXTrackPoint.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46F0A152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GPXTrackPoint.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46F0B152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPXTrackSegment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46F0C152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GPXTrackSegment.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46F0D152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPXType.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46F0E152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GPXType.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46F0F152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GPXWaypoint.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46F10152ED11700C9A168</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GPXWaypoint.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46F41152ED13F00C9A168</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13D46EEE152ED11700C9A168</string>
-				<string>13D46EEF152ED11700C9A168</string>
-				<string>13D46EF0152ED11700C9A168</string>
-				<string>13D46F01152ED11700C9A168</string>
-				<string>13D46F02152ED11700C9A168</string>
-				<string>13D46EF7152ED11700C9A168</string>
-				<string>13D46EF8152ED11700C9A168</string>
-				<string>13D46F0F152ED11700C9A168</string>
-				<string>13D46F10152ED11700C9A168</string>
-				<string>13D46F05152ED11700C9A168</string>
-				<string>13D46F06152ED11700C9A168</string>
-				<string>13D46F09152ED11700C9A168</string>
-				<string>13D46F0A152ED11700C9A168</string>
-				<string>13D46F03152ED11700C9A168</string>
-				<string>13D46F04152ED11700C9A168</string>
-				<string>13D46F07152ED11700C9A168</string>
-				<string>13D46F08152ED11700C9A168</string>
-				<string>13D46EF3152ED11700C9A168</string>
-				<string>13D46EF4152ED11700C9A168</string>
-				<string>13D46F0B152ED11700C9A168</string>
-				<string>13D46F0C152ED11700C9A168</string>
-				<string>13D46EEC152ED11700C9A168</string>
-				<string>13D46EED152ED11700C9A168</string>
-				<string>13D46EF5152ED11700C9A168</string>
-				<string>13D46EF6152ED11700C9A168</string>
-				<string>13D46EF1152ED11700C9A168</string>
-				<string>13D46EF2152ED11700C9A168</string>
-				<string>13D46EFB152ED11700C9A168</string>
-				<string>13D46EFC152ED11700C9A168</string>
-				<string>13D46EE6152ED11700C9A168</string>
-				<string>13D46EE7152ED11700C9A168</string>
-				<string>13D46EFD152ED11700C9A168</string>
-				<string>13D46EFE152ED11700C9A168</string>
-				<string>13D46EFF152ED11700C9A168</string>
-				<string>13D46F00152ED11700C9A168</string>
-				<string>13D46EE8152ED11700C9A168</string>
-				<string>13D46EE9152ED11700C9A168</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Element</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13D46F42152ED24900C9A168</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>4FC95880C07D428C900D93DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>907C23F77BBF4FE3A0B4A441</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>907C23F77BBF4FE3A0B4A441</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>AE6C23E9244045A08891E74E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>D90F4D101987ED7900355692</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46EFA152ED11700C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D90F4D111987ED7900355692</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46EEB152ED11700C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D90F4D121987ED7900355692</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46F0E152ED11700C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D90F4D131987ED7900355692</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46EEF152ED11700C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D90F4D141987ED7900355692</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46F02152ED11700C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D90F4D151987ED7900355692</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46EF8152ED11700C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D90F4D161987ED7900355692</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46F10152ED11700C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D90F4D171987ED7900355692</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46F06152ED11700C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D90F4D181987ED7900355692</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46F0A152ED11700C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D90F4D191987ED7900355692</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46F04152ED11700C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D90F4D1A1987ED7900355692</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46F08152ED11700C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D90F4D1B1987ED7900355692</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46EF4152ED11700C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D90F4D1C1987ED7900355692</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46F0C152ED11700C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D90F4D1D1987ED7900355692</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46EED152ED11700C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D90F4D1E1987ED7900355692</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46EF6152ED11700C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D90F4D1F1987ED7900355692</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46EF2152ED11700C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D90F4D201987ED7900355692</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46EFC152ED11700C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D90F4D211987ED7900355692</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46EE7152ED11700C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D90F4D221987ED7900355692</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46EFE152ED11700C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D90F4D231987ED7900355692</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46F00152ED11700C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D90F4D241987ED7900355692</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D46EE9152ED11700C9A168</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F57F210DF867415AB13438DA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>F6E0E9FE4FD54A6C971E12A3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>13D46EA3152ECF2400C9A168</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		131D1C381532A2AF007479F1 /* mystic_basin_trail.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 131D1C371532A2AF007479F1 /* mystic_basin_trail.gpx */; };
+		13D46EC3152ECF2400C9A168 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D46EC2152ECF2400C9A168 /* SenTestingKit.framework */; };
+		13D46EC6152ECF2400C9A168 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D46EB3152ECF2400C9A168 /* Foundation.framework */; };
+		13D46ED2152ECF2400C9A168 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13D46ED0152ECF2400C9A168 /* InfoPlist.strings */; };
+		13D46ED5152ECF2400C9A168 /* GPXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46ED4152ECF2400C9A168 /* GPXTests.m */; };
+		4FC95880C07D428C900D93DB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 907C23F77BBF4FE3A0B4A441 /* libPods.a */; };
+		D90F4D101987ED7900355692 /* GPXParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46EFA152ED11700C9A168 /* GPXParser.m */; };
+		D90F4D111987ED7900355692 /* GPXConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46EEB152ED11700C9A168 /* GPXConst.m */; };
+		D90F4D121987ED7900355692 /* GPXType.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46F0E152ED11700C9A168 /* GPXType.m */; };
+		D90F4D131987ED7900355692 /* GPXElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46EEF152ED11700C9A168 /* GPXElement.m */; };
+		D90F4D141987ED7900355692 /* GPXRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46F02152ED11700C9A168 /* GPXRoot.m */; };
+		D90F4D151987ED7900355692 /* GPXMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46EF8152ED11700C9A168 /* GPXMetadata.m */; };
+		D90F4D161987ED7900355692 /* GPXWaypoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46F10152ED11700C9A168 /* GPXWaypoint.m */; };
+		D90F4D171987ED7900355692 /* GPXRoutePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46F06152ED11700C9A168 /* GPXRoutePoint.m */; };
+		D90F4D181987ED7900355692 /* GPXTrackPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46F0A152ED11700C9A168 /* GPXTrackPoint.m */; };
+		D90F4D191987ED7900355692 /* GPXRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46F04152ED11700C9A168 /* GPXRoute.m */; };
+		D90F4D1A1987ED7900355692 /* GPXTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46F08152ED11700C9A168 /* GPXTrack.m */; };
+		D90F4D1B1987ED7900355692 /* GPXExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46EF4152ED11700C9A168 /* GPXExtensions.m */; };
+		D90F4D1C1987ED7900355692 /* GPXTrackSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46F0C152ED11700C9A168 /* GPXTrackSegment.m */; };
+		D90F4D1D1987ED7900355692 /* GPXCopyright.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46EED152ED11700C9A168 /* GPXCopyright.m */; };
+		D90F4D1E1987ED7900355692 /* GPXLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46EF6152ED11700C9A168 /* GPXLink.m */; };
+		D90F4D1F1987ED7900355692 /* GPXEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46EF2152ED11700C9A168 /* GPXEmail.m */; };
+		D90F4D201987ED7900355692 /* GPXPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46EFC152ED11700C9A168 /* GPXPerson.m */; };
+		D90F4D211987ED7900355692 /* GPXAuthor.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46EE7152ED11700C9A168 /* GPXAuthor.m */; };
+		D90F4D221987ED7900355692 /* GPXPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46EFE152ED11700C9A168 /* GPXPoint.m */; };
+		D90F4D231987ED7900355692 /* GPXPointSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46F00152ED11700C9A168 /* GPXPointSegment.m */; };
+		D90F4D241987ED7900355692 /* GPXBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46EE9152ED11700C9A168 /* GPXBounds.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		131D1C371532A2AF007479F1 /* mystic_basin_trail.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mystic_basin_trail.gpx; sourceTree = "<group>"; };
+		13D46EB3152ECF2400C9A168 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		13D46EB7152ECF2400C9A168 /* GPX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPX-Info.plist"; sourceTree = "<group>"; };
+		13D46EB9152ECF2400C9A168 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13D46EBB152ECF2400C9A168 /* GPX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPX-Prefix.pch"; sourceTree = "<group>"; };
+		13D46EC1152ECF2400C9A168 /* GPXTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPXTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D46EC2152ECF2400C9A168 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		13D46ECF152ECF2400C9A168 /* GPXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPXTests-Info.plist"; sourceTree = "<group>"; };
+		13D46ED1152ECF2400C9A168 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13D46ED3152ECF2400C9A168 /* GPXTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPXTests.h; sourceTree = "<group>"; };
+		13D46ED4152ECF2400C9A168 /* GPXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPXTests.m; sourceTree = "<group>"; };
+		13D46EE5152ED11700C9A168 /* GPX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPX.h; sourceTree = "<group>"; };
+		13D46EE6152ED11700C9A168 /* GPXAuthor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXAuthor.h; sourceTree = "<group>"; };
+		13D46EE7152ED11700C9A168 /* GPXAuthor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXAuthor.m; sourceTree = "<group>"; };
+		13D46EE8152ED11700C9A168 /* GPXBounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXBounds.h; sourceTree = "<group>"; };
+		13D46EE9152ED11700C9A168 /* GPXBounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXBounds.m; sourceTree = "<group>"; };
+		13D46EEA152ED11700C9A168 /* GPXConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXConst.h; sourceTree = "<group>"; };
+		13D46EEB152ED11700C9A168 /* GPXConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXConst.m; sourceTree = "<group>"; };
+		13D46EEC152ED11700C9A168 /* GPXCopyright.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXCopyright.h; sourceTree = "<group>"; };
+		13D46EED152ED11700C9A168 /* GPXCopyright.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXCopyright.m; sourceTree = "<group>"; };
+		13D46EEE152ED11700C9A168 /* GPXElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXElement.h; sourceTree = "<group>"; };
+		13D46EEF152ED11700C9A168 /* GPXElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXElement.m; sourceTree = "<group>"; };
+		13D46EF0152ED11700C9A168 /* GPXElementSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXElementSubclass.h; sourceTree = "<group>"; };
+		13D46EF1152ED11700C9A168 /* GPXEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXEmail.h; sourceTree = "<group>"; };
+		13D46EF2152ED11700C9A168 /* GPXEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXEmail.m; sourceTree = "<group>"; };
+		13D46EF3152ED11700C9A168 /* GPXExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXExtensions.h; sourceTree = "<group>"; };
+		13D46EF4152ED11700C9A168 /* GPXExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXExtensions.m; sourceTree = "<group>"; };
+		13D46EF5152ED11700C9A168 /* GPXLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXLink.h; sourceTree = "<group>"; };
+		13D46EF6152ED11700C9A168 /* GPXLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXLink.m; sourceTree = "<group>"; };
+		13D46EF7152ED11700C9A168 /* GPXMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXMetadata.h; sourceTree = "<group>"; };
+		13D46EF8152ED11700C9A168 /* GPXMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXMetadata.m; sourceTree = "<group>"; };
+		13D46EF9152ED11700C9A168 /* GPXParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXParser.h; sourceTree = "<group>"; };
+		13D46EFA152ED11700C9A168 /* GPXParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXParser.m; sourceTree = "<group>"; };
+		13D46EFB152ED11700C9A168 /* GPXPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXPerson.h; sourceTree = "<group>"; };
+		13D46EFC152ED11700C9A168 /* GPXPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXPerson.m; sourceTree = "<group>"; };
+		13D46EFD152ED11700C9A168 /* GPXPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXPoint.h; sourceTree = "<group>"; };
+		13D46EFE152ED11700C9A168 /* GPXPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXPoint.m; sourceTree = "<group>"; };
+		13D46EFF152ED11700C9A168 /* GPXPointSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXPointSegment.h; sourceTree = "<group>"; };
+		13D46F00152ED11700C9A168 /* GPXPointSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXPointSegment.m; sourceTree = "<group>"; };
+		13D46F01152ED11700C9A168 /* GPXRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXRoot.h; sourceTree = "<group>"; };
+		13D46F02152ED11700C9A168 /* GPXRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXRoot.m; sourceTree = "<group>"; };
+		13D46F03152ED11700C9A168 /* GPXRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXRoute.h; sourceTree = "<group>"; };
+		13D46F04152ED11700C9A168 /* GPXRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXRoute.m; sourceTree = "<group>"; };
+		13D46F05152ED11700C9A168 /* GPXRoutePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXRoutePoint.h; sourceTree = "<group>"; };
+		13D46F06152ED11700C9A168 /* GPXRoutePoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXRoutePoint.m; sourceTree = "<group>"; };
+		13D46F07152ED11700C9A168 /* GPXTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXTrack.h; sourceTree = "<group>"; };
+		13D46F08152ED11700C9A168 /* GPXTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXTrack.m; sourceTree = "<group>"; };
+		13D46F09152ED11700C9A168 /* GPXTrackPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXTrackPoint.h; sourceTree = "<group>"; };
+		13D46F0A152ED11700C9A168 /* GPXTrackPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXTrackPoint.m; sourceTree = "<group>"; };
+		13D46F0B152ED11700C9A168 /* GPXTrackSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXTrackSegment.h; sourceTree = "<group>"; };
+		13D46F0C152ED11700C9A168 /* GPXTrackSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXTrackSegment.m; sourceTree = "<group>"; };
+		13D46F0D152ED11700C9A168 /* GPXType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXType.h; sourceTree = "<group>"; };
+		13D46F0E152ED11700C9A168 /* GPXType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXType.m; sourceTree = "<group>"; };
+		13D46F0F152ED11700C9A168 /* GPXWaypoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXWaypoint.h; sourceTree = "<group>"; };
+		13D46F10152ED11700C9A168 /* GPXWaypoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXWaypoint.m; sourceTree = "<group>"; };
+		13D46F42152ED24900C9A168 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		907C23F77BBF4FE3A0B4A441 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E0E9FE4FD54A6C971E12A3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13D46EBD152ECF2400C9A168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D46EC3152ECF2400C9A168 /* SenTestingKit.framework in Frameworks */,
+				13D46EC6152ECF2400C9A168 /* Foundation.framework in Frameworks */,
+				4FC95880C07D428C900D93DB /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13D46EA1152ECF2400C9A168 = {
+			isa = PBXGroup;
+			children = (
+				13D46EB5152ECF2400C9A168 /* GPX */,
+				13D46ECD152ECF2400C9A168 /* GPXTests */,
+				13D46EB2152ECF2400C9A168 /* Frameworks */,
+				13D46EB1152ECF2400C9A168 /* Products */,
+				F6E0E9FE4FD54A6C971E12A3 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		13D46EB1152ECF2400C9A168 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13D46EC1152ECF2400C9A168 /* GPXTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13D46EB2152ECF2400C9A168 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13D46F42152ED24900C9A168 /* UIKit.framework */,
+				13D46EB3152ECF2400C9A168 /* Foundation.framework */,
+				13D46EC2152ECF2400C9A168 /* SenTestingKit.framework */,
+				907C23F77BBF4FE3A0B4A441 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13D46EB5152ECF2400C9A168 /* GPX */ = {
+			isa = PBXGroup;
+			children = (
+				13D46EE5152ED11700C9A168 /* GPX.h */,
+				13D46EF9152ED11700C9A168 /* GPXParser.h */,
+				13D46EFA152ED11700C9A168 /* GPXParser.m */,
+				13D46EEA152ED11700C9A168 /* GPXConst.h */,
+				13D46EEB152ED11700C9A168 /* GPXConst.m */,
+				13D46F0D152ED11700C9A168 /* GPXType.h */,
+				13D46F0E152ED11700C9A168 /* GPXType.m */,
+				13D46F41152ED13F00C9A168 /* Element */,
+				13D46EB6152ECF2400C9A168 /* Supporting Files */,
+			);
+			path = GPX;
+			sourceTree = "<group>";
+		};
+		13D46EB6152ECF2400C9A168 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13D46EB7152ECF2400C9A168 /* GPX-Info.plist */,
+				13D46EB8152ECF2400C9A168 /* InfoPlist.strings */,
+				13D46EBB152ECF2400C9A168 /* GPX-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13D46ECD152ECF2400C9A168 /* GPXTests */ = {
+			isa = PBXGroup;
+			children = (
+				13D46ED3152ECF2400C9A168 /* GPXTests.h */,
+				13D46ED4152ECF2400C9A168 /* GPXTests.m */,
+				131D1C371532A2AF007479F1 /* mystic_basin_trail.gpx */,
+				13D46ECE152ECF2400C9A168 /* Supporting Files */,
+			);
+			path = GPXTests;
+			sourceTree = "<group>";
+		};
+		13D46ECE152ECF2400C9A168 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13D46ECF152ECF2400C9A168 /* GPXTests-Info.plist */,
+				13D46ED0152ECF2400C9A168 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13D46F41152ED13F00C9A168 /* Element */ = {
+			isa = PBXGroup;
+			children = (
+				13D46EEE152ED11700C9A168 /* GPXElement.h */,
+				13D46EEF152ED11700C9A168 /* GPXElement.m */,
+				13D46EF0152ED11700C9A168 /* GPXElementSubclass.h */,
+				13D46F01152ED11700C9A168 /* GPXRoot.h */,
+				13D46F02152ED11700C9A168 /* GPXRoot.m */,
+				13D46EF7152ED11700C9A168 /* GPXMetadata.h */,
+				13D46EF8152ED11700C9A168 /* GPXMetadata.m */,
+				13D46F0F152ED11700C9A168 /* GPXWaypoint.h */,
+				13D46F10152ED11700C9A168 /* GPXWaypoint.m */,
+				13D46F05152ED11700C9A168 /* GPXRoutePoint.h */,
+				13D46F06152ED11700C9A168 /* GPXRoutePoint.m */,
+				13D46F09152ED11700C9A168 /* GPXTrackPoint.h */,
+				13D46F0A152ED11700C9A168 /* GPXTrackPoint.m */,
+				13D46F03152ED11700C9A168 /* GPXRoute.h */,
+				13D46F04152ED11700C9A168 /* GPXRoute.m */,
+				13D46F07152ED11700C9A168 /* GPXTrack.h */,
+				13D46F08152ED11700C9A168 /* GPXTrack.m */,
+				13D46EF3152ED11700C9A168 /* GPXExtensions.h */,
+				13D46EF4152ED11700C9A168 /* GPXExtensions.m */,
+				13D46F0B152ED11700C9A168 /* GPXTrackSegment.h */,
+				13D46F0C152ED11700C9A168 /* GPXTrackSegment.m */,
+				13D46EEC152ED11700C9A168 /* GPXCopyright.h */,
+				13D46EED152ED11700C9A168 /* GPXCopyright.m */,
+				13D46EF5152ED11700C9A168 /* GPXLink.h */,
+				13D46EF6152ED11700C9A168 /* GPXLink.m */,
+				13D46EF1152ED11700C9A168 /* GPXEmail.h */,
+				13D46EF2152ED11700C9A168 /* GPXEmail.m */,
+				13D46EFB152ED11700C9A168 /* GPXPerson.h */,
+				13D46EFC152ED11700C9A168 /* GPXPerson.m */,
+				13D46EE6152ED11700C9A168 /* GPXAuthor.h */,
+				13D46EE7152ED11700C9A168 /* GPXAuthor.m */,
+				13D46EFD152ED11700C9A168 /* GPXPoint.h */,
+				13D46EFE152ED11700C9A168 /* GPXPoint.m */,
+				13D46EFF152ED11700C9A168 /* GPXPointSegment.h */,
+				13D46F00152ED11700C9A168 /* GPXPointSegment.m */,
+				13D46EE8152ED11700C9A168 /* GPXBounds.h */,
+				13D46EE9152ED11700C9A168 /* GPXBounds.m */,
+			);
+			name = Element;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13D46EC0152ECF2400C9A168 /* GPXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13D46EDB152ECF2400C9A168 /* Build configuration list for PBXNativeTarget "GPXTests" */;
+			buildPhases = (
+				F57F210DF867415AB13438DA /* Check Pods Manifest.lock */,
+				13D46EBC152ECF2400C9A168 /* Sources */,
+				13D46EBD152ECF2400C9A168 /* Frameworks */,
+				13D46EBE152ECF2400C9A168 /* Resources */,
+				13D46EBF152ECF2400C9A168 /* ShellScript */,
+				AE6C23E9244045A08891E74E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPXTests;
+			productName = GPXTests;
+			productReference = 13D46EC1152ECF2400C9A168 /* GPXTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13D46EA3152ECF2400C9A168 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastTestingUpgradeCheck = 0510;
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 13D46EA6152ECF2400C9A168 /* Build configuration list for PBXProject "GPX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 13D46EA1152ECF2400C9A168;
+			productRefGroup = 13D46EB1152ECF2400C9A168 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13D46EC0152ECF2400C9A168 /* GPXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13D46EBE152ECF2400C9A168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D46ED2152ECF2400C9A168 /* InfoPlist.strings in Resources */,
+				131D1C381532A2AF007479F1 /* mystic_basin_trail.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13D46EBF152ECF2400C9A168 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		AE6C23E9244045A08891E74E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F57F210DF867415AB13438DA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13D46EBC152ECF2400C9A168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90F4D101987ED7900355692 /* GPXParser.m in Sources */,
+				D90F4D1E1987ED7900355692 /* GPXLink.m in Sources */,
+				D90F4D241987ED7900355692 /* GPXBounds.m in Sources */,
+				D90F4D191987ED7900355692 /* GPXRoute.m in Sources */,
+				D90F4D1F1987ED7900355692 /* GPXEmail.m in Sources */,
+				D90F4D171987ED7900355692 /* GPXRoutePoint.m in Sources */,
+				D90F4D121987ED7900355692 /* GPXType.m in Sources */,
+				D90F4D221987ED7900355692 /* GPXPoint.m in Sources */,
+				D90F4D161987ED7900355692 /* GPXWaypoint.m in Sources */,
+				D90F4D211987ED7900355692 /* GPXAuthor.m in Sources */,
+				D90F4D1A1987ED7900355692 /* GPXTrack.m in Sources */,
+				D90F4D181987ED7900355692 /* GPXTrackPoint.m in Sources */,
+				D90F4D1D1987ED7900355692 /* GPXCopyright.m in Sources */,
+				D90F4D201987ED7900355692 /* GPXPerson.m in Sources */,
+				13D46ED5152ECF2400C9A168 /* GPXTests.m in Sources */,
+				D90F4D111987ED7900355692 /* GPXConst.m in Sources */,
+				D90F4D151987ED7900355692 /* GPXMetadata.m in Sources */,
+				D90F4D231987ED7900355692 /* GPXPointSegment.m in Sources */,
+				D90F4D131987ED7900355692 /* GPXElement.m in Sources */,
+				D90F4D1C1987ED7900355692 /* GPXTrackSegment.m in Sources */,
+				D90F4D1B1987ED7900355692 /* GPXExtensions.m in Sources */,
+				D90F4D141987ED7900355692 /* GPXRoot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13D46EB8152ECF2400C9A168 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13D46EB9152ECF2400C9A168 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		13D46ED0152ECF2400C9A168 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13D46ED1152ECF2400C9A168 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13D46ED6152ECF2400C9A168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13D46ED7152ECF2400C9A168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13D46EDC152ECF2400C9A168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6E0E9FE4FD54A6C971E12A3 /* Pods.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPX/GPX-Prefix.pch";
+				INFOPLIST_FILE = "GPXTests/GPXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		13D46EDD152ECF2400C9A168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6E0E9FE4FD54A6C971E12A3 /* Pods.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPX/GPX-Prefix.pch";
+				INFOPLIST_FILE = "GPXTests/GPXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13D46EA6152ECF2400C9A168 /* Build configuration list for PBXProject "GPX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D46ED6152ECF2400C9A168 /* Debug */,
+				13D46ED7152ECF2400C9A168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13D46EDB152ECF2400C9A168 /* Build configuration list for PBXNativeTarget "GPXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D46EDC152ECF2400C9A168 /* Debug */,
+				13D46EDD152ECF2400C9A168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13D46EA3152ECF2400C9A168 /* Project object */;
+}
