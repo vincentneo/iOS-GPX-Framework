@@ -1,5 +1,5 @@
-platform :ios, '5.1'
+platform :ios, '6.0'
 xcodeproj 'GPX.xcodeproj'
 inhibit_all_warnings!
 
-pod 'TBXML', '~> 1.5'
+pod 'iOS-GPX-Framework', :path => '.'
