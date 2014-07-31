@@ -29,7 +29,7 @@ pod 'iOS-GPX-Framework', "~> 0.0"
 Usage
 ---------------------------------
 
-```pbjc
+```objc
 //Import the umbrella header
 
 #import "KML.h"
