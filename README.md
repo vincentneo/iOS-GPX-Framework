@@ -60,9 +60,9 @@ track.name = @"My New Track";
 
 # Usage with Swift
  
-In order to use it with the new Swift programming language you need to use the [Objective-C Bridging header] (https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/MixandMatch.html). 
+In order to use this library with the new Swift programming language you need to use the [Objective-C Bridging header] (https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/MixandMatch.html). 
 
-Basically, you have to create a .h file that imports GPX.h
+Basically, you have to create a .h file that imports *GPX.h*
 
 ```objc
 // <YourProjectName>/Bridge.h
@@ -74,7 +74,7 @@ Basically, you have to create a .h file that imports GPX.h
  
  #endif
 ```
-Then in Build Settings of your project name search for the key "Objective-C Bridging header" and add that file ie: <YourProjectName>/Bridge.h
+Then in Build Settings of your project name search for the key **"Objective-C Bridging header"** and add that file ie: *YourProjectName/Bridge.h*
   
 That's it.
  
