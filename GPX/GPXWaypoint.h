@@ -61,6 +61,12 @@
 /** Type (classification) of the waypoint. */
 @property (strong, nonatomic) NSString *type;
 
+/** Instantaneous speed at the point in m/s. */
+@property (strong, nonatomic) NSNumber *speed;
+
+/** Instantaneous course at the point. */
+@property (strong, nonatomic) NSNumber *course;
+
 /** Type of GPX fix. */
 @property (nonatomic) NSInteger fix;
 

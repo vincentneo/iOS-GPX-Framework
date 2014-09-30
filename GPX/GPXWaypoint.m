@@ -13,6 +13,8 @@
 
 @implementation GPXWaypoint {
     NSString *_elevationValue;
+    NSString *_speedValue;
+    NSString *_courseValue;
     NSString *_timeValue;
     NSString *_magneticVariationValue;
     NSString *_geoidHeightValue;
@@ -65,7 +67,11 @@
         _comment = [self textForSingleChildElementNamed:@"cmt" xmlElement:element];
         _desc = [self textForSingleChildElementNamed:@"desc" xmlElement:element];
         _source = [self textForSingleChildElementNamed:@"src" xmlElement:element];
-
+        
+        // speed and course may be direct child tags of waypoints according to http://www.topografix.com/gpx_manual.asp
+        _courseValue = [self textForSingleChildElementNamed:@"course" xmlElement:element];
+        _speedValue = [self textForSingleChildElementNamed:@"speed" xmlElement:element];
+        
         NSMutableArray *array = [NSMutableArray array];
         [self childElementsOfClass:[GPXLink class]
                         xmlElement:element
@@ -121,6 +127,31 @@
 - (void)setTime:(NSDate *)time
 {
     _timeValue = [GPXType valueForDateTime:time];
+}
+
+- (NSNumber *)speed {
+    if (!_speedValue) {
+        return nil;
+    }
+    
+    return @([_speedValue doubleValue]);
+}
+
+
+- (void)setSpeed:(NSNumber *)speed {
+    _speedValue = [speed stringValue];
+}
+
+- (NSNumber *)course {
+    if (!_courseValue) {
+        return nil;
+    }
+    
+    return @([_courseValue doubleValue]);
+}
+
+- (void)setCourse:(NSNumber *)course {
+    _courseValue = [course stringValue];
 }
 
 - (CGFloat)magneticVariation
