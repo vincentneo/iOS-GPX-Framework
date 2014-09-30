@@ -62,6 +62,9 @@
 		13D46F3F152ED11700C9A168 /* GPXXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46F11152ED11700C9A168 /* GPXXML.h */; settings = {ATTRIBUTES = (); }; };
 		13D46F40152ED11700C9A168 /* GPXXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46F12152ED11700C9A168 /* GPXXML.m */; };
 		13D46F43152ED24900C9A168 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D46F42152ED24900C9A168 /* UIKit.framework */; };
+		C886810B19D9C943001904F0 /* GPXTrackPointExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C886810919D9C943001904F0 /* GPXTrackPointExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C886810C19D9C943001904F0 /* GPXTrackPointExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C886810A19D9C943001904F0 /* GPXTrackPointExtensions.m */; };
+		C886812C19DB0858001904F0 /* GPXTrackPointExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C886810A19D9C943001904F0 /* GPXTrackPointExtensions.m */; };
 		DC6D135B1898453800C61325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D46EB3152ECF2400C9A168 /* Foundation.framework */; };
 		DC6D137D1898456100C61325 /* GPXParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46EFA152ED11700C9A168 /* GPXParser.m */; };
 		DC6D137E1898456100C61325 /* GPXXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46F12152ED11700C9A168 /* GPXXML.m */; };
@@ -191,6 +194,8 @@
 		13D46F11152ED11700C9A168 /* GPXXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXXML.h; sourceTree = "<group>"; };
 		13D46F12152ED11700C9A168 /* GPXXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXXML.m; sourceTree = "<group>"; };
 		13D46F42152ED24900C9A168 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C886810919D9C943001904F0 /* GPXTrackPointExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXTrackPointExtensions.h; sourceTree = "<group>"; };
+		C886810A19D9C943001904F0 /* GPXTrackPointExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXTrackPointExtensions.m; sourceTree = "<group>"; };
 		DC6D135A1898453800C61325 /* libGPXLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGPXLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6D135E1898453800C61325 /* GPXLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPXLib-Prefix.pch"; sourceTree = "<group>"; };
 		DC6D13681898453800C61325 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -348,6 +353,8 @@
 				13D46F04152ED11700C9A168 /* GPXRoute.m */,
 				13D46F07152ED11700C9A168 /* GPXTrack.h */,
 				13D46F08152ED11700C9A168 /* GPXTrack.m */,
+				C886810919D9C943001904F0 /* GPXTrackPointExtensions.h */,
+				C886810A19D9C943001904F0 /* GPXTrackPointExtensions.m */,
 				13D46EF3152ED11700C9A168 /* GPXExtensions.h */,
 				13D46EF4152ED11700C9A168 /* GPXExtensions.m */,
 				13D46F0B152ED11700C9A168 /* GPXTrackSegment.h */,
@@ -427,6 +434,7 @@
 				13D46F27152ED11700C9A168 /* GPXParser.h in Headers */,
 				13D46F29152ED11700C9A168 /* GPXPerson.h in Headers */,
 				13D46F2B152ED11700C9A168 /* GPXPoint.h in Headers */,
+				C886810B19D9C943001904F0 /* GPXTrackPointExtensions.h in Headers */,
 				13D46F2D152ED11700C9A168 /* GPXPointSegment.h in Headers */,
 				13D46F2F152ED11700C9A168 /* GPXRoot.h in Headers */,
 				13D46F31152ED11700C9A168 /* GPXRoute.h in Headers */,
@@ -483,7 +491,7 @@
 			name = GPXTests;
 			productName = GPXTests;
 			productReference = 13D46EC1152ECF2400C9A168 /* GPXTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		DC6D13591898453800C61325 /* GPXLib */ = {
 			isa = PBXNativeTarget;
@@ -648,6 +656,7 @@
 				13D46F19152ED11700C9A168 /* GPXConst.m in Sources */,
 				13D46F1B152ED11700C9A168 /* GPXCopyright.m in Sources */,
 				13D46F1D152ED11700C9A168 /* GPXElement.m in Sources */,
+				C886810C19D9C943001904F0 /* GPXTrackPointExtensions.m in Sources */,
 				13D46F20152ED11700C9A168 /* GPXEmail.m in Sources */,
 				13D46F22152ED11700C9A168 /* GPXExtensions.m in Sources */,
 				13D46F24152ED11700C9A168 /* GPXLink.m in Sources */,
@@ -685,6 +694,7 @@
 				DC6D13911898456100C61325 /* GPXPointSegment.m in Sources */,
 				DC6D138B1898456100C61325 /* GPXCopyright.m in Sources */,
 				DC6D13861898456100C61325 /* GPXTrackPoint.m in Sources */,
+				C886812C19DB0858001904F0 /* GPXTrackPointExtensions.m in Sources */,
 				DC6D138F1898456100C61325 /* GPXAuthor.m in Sources */,
 				DC6D138C1898456100C61325 /* GPXLink.m in Sources */,
 				DC6D137E1898456100C61325 /* GPXXML.m in Sources */,

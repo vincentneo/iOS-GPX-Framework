@@ -17,13 +17,12 @@
 {
     self = [super initWithXMLElement:element parent:parent];
     if (self) {
+        _garminExtensions = (GPXTrackPointExtensions *)[self childElementOfClass:[GPXTrackPointExtensions class] xmlElement:element];
     }
     return self;
 }
 
-
 #pragma mark - Public methods
-
 
 
 #pragma mark - tag
