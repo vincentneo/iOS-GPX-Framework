@@ -53,23 +53,31 @@
     _courseString = [NSString stringWithFormat:@"%f", [course doubleValue]];
 }
 
-- (NSNumber *)heartRate
-{
+- (NSNumber *)heartRate {
+    if (!_heartRateString.length) {
+        return nil;
+    }
     return [NSNumber numberWithFloat:[GPXType decimal:_heartRateString]];
 }
 
-- (NSNumber *)cadence
-{
+- (NSNumber *)cadence {
+    if (!_cadenceString.length) {
+        return nil;
+    }
     return [NSNumber numberWithFloat:[GPXType nonNegativeInteger:_cadenceString]];
 }
 
-- (NSNumber *)speed
-{
+- (NSNumber *)speed {
+    if (!_speedString.length) {
+        return nil;
+    }
     return [NSNumber numberWithFloat:[GPXType decimal:_speedString]];
 }
 
-- (NSNumber *)course
-{
+- (NSNumber *)course {
+    if (!_courseString.length) {
+        return nil;
+    }
     return [NSNumber numberWithFloat:[GPXType decimal:_courseString]];
 }
 
