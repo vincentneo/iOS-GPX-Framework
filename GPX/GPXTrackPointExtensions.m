@@ -9,6 +9,8 @@
 #import "GPXTrackPointExtensions.h"
 #import "GPXElementSubclass.h"
 
+NSString *const kGPXTrackPointExtensionsTagName = @"gpxtpx:TrackPointExtension";
+
 @interface GPXTrackPointExtensions ()
 
 @property (nonatomic, strong) NSString *heartRateString;
@@ -35,57 +37,57 @@
 #pragma mark - Public methods
 - (void)setHeartRate:(NSNumber *)heartRate
 {
-    _heartRateString = [NSString stringWithFormat:@"%f", [heartRate doubleValue]];
+    _heartRateString = heartRate? [NSString stringWithFormat:@"%f", [heartRate doubleValue]]: nil;
 }
 
 - (void)setCadence:(NSNumber *)cadence
 {
-    _cadenceString = [NSString stringWithFormat:@"%ud", [cadence unsignedIntValue]];
+    _cadenceString = cadence ? [NSString stringWithFormat:@"%ud", [cadence unsignedIntValue]]: nil;
 }
 
 - (void)setSpeed:(NSNumber *)speed
 {
-    _speedString = [NSString stringWithFormat:@"%f", [speed doubleValue]];
+    _speedString = speed ? [NSString stringWithFormat:@"%f", [speed doubleValue]]: nil;
 }
 
 - (void)setCourse:(NSNumber *)course
 {
-    _courseString = [NSString stringWithFormat:@"%f", [course doubleValue]];
+    _courseString = course ? [NSString stringWithFormat:@"%f", [course doubleValue]]: nil;
 }
 
 - (NSNumber *)heartRate {
     if (!_heartRateString.length) {
         return nil;
     }
-    return [NSNumber numberWithFloat:[GPXType decimal:_heartRateString]];
+    return [NSNumber numberWithDouble:[GPXType decimal:_heartRateString]];
 }
 
 - (NSNumber *)cadence {
     if (!_cadenceString.length) {
         return nil;
     }
-    return [NSNumber numberWithFloat:[GPXType nonNegativeInteger:_cadenceString]];
+    return [NSNumber numberWithInteger:[GPXType nonNegativeInteger:_cadenceString]];
 }
 
 - (NSNumber *)speed {
     if (!_speedString.length) {
         return nil;
     }
-    return [NSNumber numberWithFloat:[GPXType decimal:_speedString]];
+    return [NSNumber numberWithDouble:[GPXType decimal:_speedString]];
 }
 
 - (NSNumber *)course {
     if (!_courseString.length) {
         return nil;
     }
-    return [NSNumber numberWithFloat:[GPXType decimal:_courseString]];
+    return [NSNumber numberWithDouble:[GPXType decimal:_courseString]];
 }
 
 #pragma mark - tag
 
 + (NSString *)tagName
 {
-    return @"gpxtpx:TrackPointExtension";
+    return kGPXTrackPointExtensionsTagName;
 }
 
 #pragma mark - GPX
