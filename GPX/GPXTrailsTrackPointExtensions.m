@@ -38,15 +38,15 @@ NSString *const kTrackPointExtensionsTagName = @"trailsio:TrackPointExtension";
 
 #pragma mark - Public methods
 - (void)setHorizontalAccuracy:(NSNumber *)horizontalAccuracy {
-    _horizontalAccuracyString = horizontalAccuracy ? [NSString stringWithFormat:@"%.2f", [horizontalAccuracy doubleValue]] : nil;
+    _horizontalAccuracyString = horizontalAccuracy ? [NSString stringWithFormat:@"%f", [horizontalAccuracy doubleValue]] : nil;
 }
 
 - (void)setVerticalAccuracy:(NSNumber *)verticalAccuracy {
-    _verticalAccuracyString = verticalAccuracy ? [NSString stringWithFormat:@"%.2f", [verticalAccuracy doubleValue]] : nil;
+    _verticalAccuracyString = verticalAccuracy ? [NSString stringWithFormat:@"%f", [verticalAccuracy doubleValue]] : nil;
 }
 
 - (void)setStepCount:(NSNumber *)stepCount {
-    _stepCountString = stepCount ? [NSString stringWithFormat:@"%.0f", [stepCount doubleValue]] : nil;
+    _stepCountString = stepCount ? [NSString stringWithFormat:@"%ud", [stepCount unsignedIntValue]] : nil;
 }
 
 - (NSNumber *)horizontalAccuracy {
