@@ -14,7 +14,7 @@ typedef NS_ENUM(NSInteger, GPXFix) {
     GPXFixPps,
 };
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 @import CoreLocation;
 
 
