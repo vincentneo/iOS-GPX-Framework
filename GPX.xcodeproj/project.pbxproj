@@ -10,7 +10,6 @@
 		131D1C381532A2AF007479F1 /* mystic_basin_trail.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 131D1C371532A2AF007479F1 /* mystic_basin_trail.gpx */; };
 		13D46EB4152ECF2400C9A168 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D46EB3152ECF2400C9A168 /* Foundation.framework */; };
 		13D46EBA152ECF2400C9A168 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13D46EB8152ECF2400C9A168 /* InfoPlist.strings */; };
-		13D46EC3152ECF2400C9A168 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D46EC2152ECF2400C9A168 /* SenTestingKit.framework */; };
 		13D46EC6152ECF2400C9A168 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D46EB3152ECF2400C9A168 /* Foundation.framework */; };
 		13D46ECB152ECF2400C9A168 /* GPX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D46EB0152ECF2400C9A168 /* GPX.framework */; };
 		13D46ED2152ECF2400C9A168 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13D46ED0152ECF2400C9A168 /* InfoPlist.strings */; };
@@ -62,6 +61,7 @@
 		13D46F3F152ED11700C9A168 /* GPXXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D46F11152ED11700C9A168 /* GPXXML.h */; settings = {ATTRIBUTES = (); }; };
 		13D46F40152ED11700C9A168 /* GPXXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46F12152ED11700C9A168 /* GPXXML.m */; };
 		13D46F43152ED24900C9A168 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D46F42152ED24900C9A168 /* UIKit.framework */; };
+		1BBE3B191B906C9C00BC60EB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6D13681898453800C61325 /* XCTest.framework */; };
 		AEAD62171AEE780B0057BEE5 /* GPXTrailsTrackPointExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = AEAD62151AEE780B0057BEE5 /* GPXTrailsTrackPointExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEAD62181AEE780B0057BEE5 /* GPXTrailsTrackPointExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AEAD62161AEE780B0057BEE5 /* GPXTrailsTrackPointExtensions.m */; };
 		AEAD62191AEE781A0057BEE5 /* GPXTrailsTrackPointExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AEAD62161AEE780B0057BEE5 /* GPXTrailsTrackPointExtensions.m */; };
@@ -148,10 +148,8 @@
 		13D46EB9152ECF2400C9A168 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13D46EBB152ECF2400C9A168 /* GPX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPX-Prefix.pch"; sourceTree = "<group>"; };
 		13D46EC1152ECF2400C9A168 /* GPXTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPXTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		13D46EC2152ECF2400C9A168 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		13D46ECF152ECF2400C9A168 /* GPXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPXTests-Info.plist"; sourceTree = "<group>"; };
 		13D46ED1152ECF2400C9A168 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		13D46ED3152ECF2400C9A168 /* GPXTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPXTests.h; sourceTree = "<group>"; };
 		13D46ED4152ECF2400C9A168 /* GPXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPXTests.m; sourceTree = "<group>"; };
 		13D46EE5152ED11700C9A168 /* GPX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPX.h; sourceTree = "<group>"; };
 		13D46EE6152ED11700C9A168 /* GPXAuthor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXAuthor.h; sourceTree = "<group>"; };
@@ -231,7 +229,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13D46EC3152ECF2400C9A168 /* SenTestingKit.framework in Frameworks */,
+				1BBE3B191B906C9C00BC60EB /* XCTest.framework in Frameworks */,
 				13D46EC6152ECF2400C9A168 /* Foundation.framework in Frameworks */,
 				13D46ECB152ECF2400C9A168 /* GPX.framework in Frameworks */,
 			);
@@ -289,7 +287,6 @@
 				DC6D1393189845AD00C61325 /* CoreLocation.framework */,
 				13D46F42152ED24900C9A168 /* UIKit.framework */,
 				13D46EB3152ECF2400C9A168 /* Foundation.framework */,
-				13D46EC2152ECF2400C9A168 /* SenTestingKit.framework */,
 				DC6D13681898453800C61325 /* XCTest.framework */,
 			);
 			name = Frameworks;
@@ -326,7 +323,6 @@
 		13D46ECD152ECF2400C9A168 /* GPXTests */ = {
 			isa = PBXGroup;
 			children = (
-				13D46ED3152ECF2400C9A168 /* GPXTests.h */,
 				13D46ED4152ECF2400C9A168 /* GPXTests.m */,
 				131D1C371532A2AF007479F1 /* mystic_basin_trail.gpx */,
 				13D46ECE152ECF2400C9A168 /* Supporting Files */,
@@ -550,8 +546,8 @@
 		13D46EA3152ECF2400C9A168 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastTestingUpgradeCheck = 0510;
-				LastUpgradeCheck = 0630;
+				LastTestingUpgradeCheck = 0700;
+				LastUpgradeCheck = 0700;
 				TargetAttributes = {
 					DC6D13BC1899028000C61325 = {
 						TestTargetID = DC6D13591898453800C61325;
@@ -799,6 +795,7 @@
 					"$(ARCHS_STANDARD)",
 					armv7s,
 				);
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
@@ -809,6 +806,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -835,6 +833,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
@@ -896,6 +895,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GPX/GPX-Prefix.pch";
@@ -911,6 +911,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GPX/GPX-Prefix.pch";
