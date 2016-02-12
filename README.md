@@ -12,7 +12,7 @@ This Framework parses the GPX from a URL or Strings and create Objective-C Insta
 
 Fork infos
 ---------------------------------
-This fork is the "iOS-GPX-Framework" pod's source repo. It has been created to migrate from a static framework based dependency mamagement to Cocoapods.
+This fork is the "iOS-GPX-Framework" pod's source repo. It has been created to migrate from a static framework based dependency mamagement to CocoaPods.
 
 
 Installation
