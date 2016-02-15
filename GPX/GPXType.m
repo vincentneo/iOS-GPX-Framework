@@ -167,8 +167,9 @@
     }
     
 
-    // dateTime（YYYY-MM-DDThh:mm:sszzzzzz）
-    if (value.length >= 22) {
+    // dateTime（YYYY-MM-DDThh:mm:sszzzzzz
+    NSUInteger maxLength = 22;
+    if (value.length >= maxLength) {
         static NSDateFormatter *dateFormatter_sszzzz = nil;
         static dispatch_once_t pred_sszzzz;
         
@@ -176,8 +177,8 @@
             dateFormatter_sszzzz =  [self newDateFormatterWithFormat:@"yyyy'-'MM'-'dd'T'HH':'mm':'sszzzz"];
         });
         
-        
-        NSString *v = [value stringByReplacingOccurrencesOfString:@":" withString:@"" options:0 range:NSMakeRange(22, 1)];
+        NSUInteger remaining = value.length - maxLength;
+        NSString *v = [value stringByReplacingOccurrencesOfString:@":" withString:@"" options:0 range:NSMakeRange(maxLength, remaining)];
         date = [dateFormatter_sszzzz dateFromString:v];
         if (date) {
             return date;
