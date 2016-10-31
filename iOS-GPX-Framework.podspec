@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name         = "iOS-GPX-Framework"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "The iOS framework for parsing/generating GPX files."
   s.description  = <<-DESC
-                   This is a iOS framework for parsing/generating GPX files. 
+                   This is a iOS framework for parsing/generating GPX files.
                    This Framework parses the GPX from a URL or Strings and create Objective-C Instances of GPX structure.
                    DESC
   s.homepage     = "http://gpxframework.com/"
@@ -11,12 +11,16 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { "Watanabe Toshinori" => "t@flcl.jp" }
   s.source       = { :git => "https://github.com/Pierre-Loup/iOS-GPX-Framework.git", :tag => s.version.to_s  }
-  
+
   s.platform     = :ios
   s.ios.deployment_target = '6.0'
   s.requires_arc = true
 
+  s.xcconfig = {
+      'USER_HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/GPX/"'
+    }
+
   s.source_files = 'GPX'
-  s.ios.framework = 'UIKit'  
+  s.ios.framework = 'UIKit'
   s.dependency 'TBXML', '~> 1.5'
 end
