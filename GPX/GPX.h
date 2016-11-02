@@ -6,6 +6,7 @@
 //  Copyright (c) 2012 NextBusinessSystem Co., Ltd. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import "GPXParser.h"
 #import "GPXConst.h"
 #import "GPXType.h"
