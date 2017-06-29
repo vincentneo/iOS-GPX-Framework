@@ -24,6 +24,7 @@
 @synthesize schema = _schema;
 @synthesize version = _version;
 @synthesize creator = _creator;
+@synthesize keywords = _keywords;
 @synthesize metadata = _metadata;
 @synthesize waypoints = _waypoints;
 @synthesize routes = _routes;
@@ -40,6 +41,7 @@
     if (self) {
         _version = @"1.1";
         _creator = @"http://gpxframework.com";
+        _keywords = @"";
         _waypoints = [NSMutableArray array];
         _routes = [NSMutableArray array];
         _tracks = [NSMutableArray array];
@@ -53,6 +55,7 @@
     if (self) {
         _version = [self valueOfAttributeNamed:@"version" xmlElement:element required:YES];
         _creator = [self valueOfAttributeNamed:@"creator" xmlElement:element required:YES];
+        _keywords = [self textForSingleChildElementNamed:@"keywords" xmlElement:element];
 
         _metadata = (GPXMetadata *)[self childElementOfClass:[GPXMetadata class] xmlElement:element];
         

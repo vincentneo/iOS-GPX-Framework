@@ -39,6 +39,9 @@
 /** Metadata about the file. */
 @property (strong, nonatomic) GPXMetadata *metadata;
 
+/** Keywords for the GPX file. */
+@property (strong, nonatomic) NSString *keywords;
+
 /** A list of waypoints. */
 @property (strong, nonatomic, readonly) NSArray *waypoints;
 
