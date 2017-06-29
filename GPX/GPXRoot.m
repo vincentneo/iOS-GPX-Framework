@@ -14,6 +14,9 @@
 #import "GPXTrack.h"
 #import "GPXExtensions.h"
 
+@interface GPXRoot ()
+@property (strong, nonatomic, readwrite) NSString *creator;
+@end
 
 @implementation GPXRoot {
     NSMutableArray *_waypoints;
@@ -24,6 +27,7 @@
 @synthesize schema = _schema;
 @synthesize version = _version;
 @synthesize creator = _creator;
+@synthesize keywords = _keywords;
 @synthesize metadata = _metadata;
 @synthesize waypoints = _waypoints;
 @synthesize routes = _routes;
@@ -40,6 +44,7 @@
     if (self) {
         _version = @"1.1";
         _creator = @"http://gpxframework.com";
+        _keywords = nil;
         _waypoints = [NSMutableArray array];
         _routes = [NSMutableArray array];
         _tracks = [NSMutableArray array];
@@ -51,8 +56,9 @@
 {
     self = [super initWithXMLElement:element parent:parent];
     if (self) {
-        _version = [self valueOfAttributeNamed:@"version" xmlElement:element required:YES];
-        _creator = [self valueOfAttributeNamed:@"creator" xmlElement:element required:YES];
+        _version = [self valueOfAttributeNamed:@"version" xmlElement:element required:YES] ?: _version;
+        _creator = [self valueOfAttributeNamed:@"creator" xmlElement:element required:YES] ?: _creator;
+        _keywords = [GPXRoot keywordsArrayFromString:[self textForSingleChildElementNamed:@"keywords" xmlElement:element]];
 
         _metadata = (GPXMetadata *)[self childElementOfClass:[GPXMetadata class] xmlElement:element];
         
@@ -93,6 +99,24 @@
     return root;
 }
 
++ (NSArray<NSString *> *)keywordsArrayFromString:(NSString *)keywordString {
+    if (!keywordString) {
+        // return nil only for nil strings, to differentiate between empty and nil keywords
+        return nil;
+    }
+
+    NSArray *keywords = [keywordString componentsSeparatedByString:@","];
+    if (!keywords.count) {
+        return @[];
+    }
+    NSMutableArray *sanitizedKeyWords = [NSMutableArray arrayWithCapacity:keywords.count];
+    NSCharacterSet *whitespaces = [NSCharacterSet whitespaceAndNewlineCharacterSet];
+    for (NSString *key in keywords) {
+        [sanitizedKeyWords addObject:[key stringByTrimmingCharactersInSet:whitespaces]];
+    }
+
+    return [sanitizedKeyWords copy];
+}
 
 #pragma mark - Public methods
 
