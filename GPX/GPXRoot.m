@@ -14,6 +14,9 @@
 #import "GPXTrack.h"
 #import "GPXExtensions.h"
 
+@interface GPXRoot ()
+@property (strong, nonatomic, readwrite) NSString *creator;
+@end
 
 @implementation GPXRoot {
     NSMutableArray *_waypoints;

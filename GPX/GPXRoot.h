@@ -31,14 +31,14 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic, readonly) NSString *schema;
 
 /** You must include the version number in your GPX document. */
-@property (strong, nonatomic) NSString *version;
+@property (strong, nonatomic, readonly) NSString *version;
 
 /** You must include the name or URL of the software that created your GPX document. 
     This allows others to inform the creator of a GPX instance document that fails to validate. */
-@property (strong, nonatomic) NSString *creator;
+@property (strong, nonatomic, readonly) NSString *creator;
 
 /** Metadata about the file. */
-@property (strong, nonatomic, nullable) GPXMetadata *metadata;
+@property (strong, nonatomic, nullable, readonly) GPXMetadata *metadata;
 
 /** Keywords for indexing the GPX file with search engines. Will be comma separated. */
 @property (strong, nonatomic, nullable, readonly) NSArray<NSString *> *keywords;
