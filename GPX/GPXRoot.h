@@ -14,6 +14,7 @@
 @class GPXTrack;
 @class GPXExtensions;
 
+NS_ASSUME_NONNULL_BEGIN
 
 /** GPX is the root element in the XML file.
     GPX documents contain a metadata header, followed by waypoints, routes, and tracks. 
@@ -37,10 +38,10 @@
 @property (strong, nonatomic) NSString *creator;
 
 /** Metadata about the file. */
-@property (strong, nonatomic) GPXMetadata *metadata;
+@property (strong, nonatomic, nullable) GPXMetadata *metadata;
 
-/** Keywords for the GPX file. */
-@property (strong, nonatomic) NSString *keywords;
+/** Keywords for indexing the GPX file with search engines. Will be comma separated. */
+@property (strong, nonatomic, nullable, readonly) NSArray<NSString *> *keywords;
 
 /** A list of waypoints. */
 @property (strong, nonatomic, readonly) NSArray *waypoints;
@@ -52,7 +53,7 @@
 @property (strong, nonatomic, readonly) NSArray *tracks;
 
 /** You can add extend GPX by adding your own elements from another schema here. */
-@property (strong, nonatomic) GPXExtensions *extensions;
+@property (strong, nonatomic, nullable) GPXExtensions *extensions;
 
 
 /// ---------------------------------
@@ -173,3 +174,5 @@
 - (void)removeTrack:(GPXTrack *)track;
 
 @end
+
+NS_ASSUME_NONNULL_END
