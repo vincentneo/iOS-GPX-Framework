@@ -44,7 +44,7 @@
 @property (strong, nonatomic) NSDate *time;
 
 /** Keywords associated with the file. Search engines or databases can use this information to classify the data. */
-@property (strong, nonatomic) NSString *keyword;
+@property (strong, nonatomic) NSString *keywords;
 
 /** Minimum and maximum coordinates which describe the extent of the coordinates in the file. */
 @property (strong, nonatomic) GPXBounds *bounds;
