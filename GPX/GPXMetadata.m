@@ -24,7 +24,7 @@
 @synthesize copyright = _copyright;
 @synthesize link = _link;
 @synthesize time = _time;
-@synthesize keyword = _keyword;
+@synthesize keywords = _keywords;
 @synthesize bounds = _bounds;
 @synthesize extensions = _extensions;
 
@@ -41,7 +41,7 @@
         _copyright = (GPXCopyright *)[self childElementOfClass:[GPXCopyright class] xmlElement:element];
         _link = (GPXLink *)[self childElementOfClass:[GPXLink class] xmlElement:element];
         _timeValue = [self textForSingleChildElementNamed:@"time" xmlElement:element];
-        _keyword = [self textForSingleChildElementNamed:@"keyword" xmlElement:element];
+        _keywords = [self textForSingleChildElementNamed:@"keywords" xmlElement:element];
         _bounds = (GPXBounds *)[self childElementOfClass:[GPXBounds class] xmlElement:element];
         _extensions = (GPXExtensions *)[self childElementOfClass:[GPXExtensions class] xmlElement:element];
     }
@@ -92,7 +92,7 @@
     }
 
     [self gpx:gpx addPropertyForValue:_timeValue defaultValue:@"0" tagName:@"time" indentationLevel:indentationLevel];
-    [self gpx:gpx addPropertyForValue:_keyword tagName:@"keyword" indentationLevel:indentationLevel];
+    [self gpx:gpx addPropertyForValue:_keywords tagName:@"keywords" indentationLevel:indentationLevel];
 
     if (self.bounds) {
         [self.bounds gpx:gpx indentationLevel:indentationLevel];

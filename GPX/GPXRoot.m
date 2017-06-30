@@ -58,10 +58,11 @@
     if (self) {
         _version = [self valueOfAttributeNamed:@"version" xmlElement:element required:YES] ?: _version;
         _creator = [self valueOfAttributeNamed:@"creator" xmlElement:element required:YES] ?: _creator;
-        _keywords = [GPXRoot keywordsArrayFromString:[self textForSingleChildElementNamed:@"keywords" xmlElement:element]];
-
         _metadata = (GPXMetadata *)[self childElementOfClass:[GPXMetadata class] xmlElement:element];
-        
+        _keywords = [GPXRoot keywordsArrayFromString:[self textForSingleChildElementNamed:@"keywords" xmlElement:element]];
+        if (!_keywords.count && _metadata.keywords.length) {
+            _keywords = [GPXRoot keywordsArrayFromString:_metadata.keywords];
+        }
         NSMutableArray *array1 = [NSMutableArray array];
         [self childElementsOfClass:[GPXWaypoint class]
                         xmlElement:element
