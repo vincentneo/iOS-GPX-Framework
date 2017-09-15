@@ -136,7 +136,7 @@
 /** Adds the GPXLink objects contained in another given array to the end of the link array.
  @param array An array of GPXLink objects to add to the end of the link array.
  */
-- (void)addLinks:(NSArray *)array;
+- (void)addLinks:(NSArray<GPXLink *> *)array;
 
 
 /// ---------------------------------
