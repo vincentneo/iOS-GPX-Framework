@@ -44,15 +44,15 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic, nullable, readonly) NSArray<NSString *> *keywords;
 
 /** A list of waypoints. */
-@property (strong, nonatomic, readonly) NSArray *waypoints;
+@property (strong, nonatomic, readonly) NSArray<GPXWaypoint *> *waypoints;
 
 /** A list of routes. */
-@property (strong, nonatomic, readonly) NSArray *routes;
+@property (strong, nonatomic, readonly) NSArray<GPXRoute *> *routes;
 
 /** A list of tracks. */
-@property (strong, nonatomic, readonly) NSArray *tracks;
+@property (strong, nonatomic, readonly) NSArray<GPXTrack *> *tracks;
 
-/** You can add extend GPX by adding your own elements from another schema here. */
+/** You can extend GPX by adding your own elements from another schema here. */
 @property (strong, nonatomic, nullable) GPXExtensions *extensions;
 
 
@@ -91,7 +91,7 @@ NS_ASSUME_NONNULL_BEGIN
 /** Adds the GPXWaypoint objects contained in another given array to the end of the waypoint array.
  @param array An array of GPXWaypoint objects to add to the end of the waypoint array.
  */
-- (void)addWaypoints:(NSArray *)array;
+- (void)addWaypoints:(NSArray<GPXWaypoint *> *)array;
 
 
 /// ---------------------------------
@@ -126,7 +126,7 @@ NS_ASSUME_NONNULL_BEGIN
 /** Adds the GPXRoute objects contained in another given array to the end of the route array.
  @param array An array of GPXRoute objects to add to the end of the route array.
  */
-- (void)addRoutes:(NSArray *)array;
+- (void)addRoutes:(NSArray<GPXRoute *> *)array;
 
 
 /// ---------------------------------
@@ -161,7 +161,7 @@ NS_ASSUME_NONNULL_BEGIN
 /** Adds the GPXTrack objects contained in another given array to the end of the track array.
  @param array An array of GPXTrack objects to add to the end of the track array.
  */
-- (void)addTracks:(NSArray *)array;
+- (void)addTracks:(NSArray<GPXTrack *> *)array;
 
 
 /// ---------------------------------
